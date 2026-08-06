@@ -1,0 +1,33 @@
+# Model weights — they go to the Hugging Face Hub, never to git.
+checkpoints/
+*.pt
+*.safetensors
+*.bin
+
+# Full training histories: 725 files, 860 MB raw / 48 MB compressed. The per-run summary
+# in provenance/runs_summary.csv is what belongs in git; the histories are an archive.
+archive/
+*.tar.gz
+
+# Corpora
+data/
+*.parquet
+*.jsonl
+*.csv
+!provenance/runs_summary.csv
+!results/*.csv
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.ruff_cache/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Claude Code (local)
+.claude/
+CLAUDE.md

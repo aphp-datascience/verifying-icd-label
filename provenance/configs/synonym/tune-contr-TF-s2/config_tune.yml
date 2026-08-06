@@ -1,0 +1,123 @@
+# Tuning Optuna de l'architecture CONTRASTIVE, sous le tokenizer CORRIGE.
+#
+# Pourquoi ce fichier existe (31/07/2026)
+# --------------------------------------
+# Tous les hyperparametres en vigueur ont ete fixes sous le tokenizer defectueux, sur
+# l'architecture bi-encodeur classifieur. Deux raisons de tout rejouer :
+#   1. le decoupage caractere changeait la geometrie des embeddings -> l'optimum a pu bouger ;
+#   2. `jz/synonym_tune_config.yml` ne tune QUE `camembert_classifier` ; les familles TF/LN/RR
+#      sont `camembert_contrastive`, jamais tunees.
+#
+# Trois departs deliberes par rapport a `synonym_tune_config.yml` :
+#   - backbone PARTAGES et non le public : on cherche ici les reglages du modele FINAL, pas des
+#     reglages transferables. Tuner sur une autre geometrie d'embeddings serait refaire la faute
+#     qu'on corrige.
+#   - `val_dataset` = le jeu REEQUILIBRE (`66_build_val_taxonomique.py`) : la part fratrie des
+#     negatifs passe de 16,9 % a 52,1 %. Le jeu d'origine est conserve integralement dedans.
+#     Sans ce reequilibrage, 83 % de l'objectif porterait sur un regime chapitre ou le tokenizer
+#     CASSE domine -- on tunerait les modeles sains vers le comportement du casse.
+#   - la TEMPERATURE InfoNCE entre dans l'espace de recherche. Elle etait figee a 0,05, n'a jamais
+#     ete tunee, et c'est le reglage le plus sensible d'une perte contrastive. Elle se passe par
+#     ENVIRONNEMENT (`build_criterion()` la lit dans os.environ) : d'ou le prefixe `env.`,
+#     supporte par `scripts/tune.py` depuis le 31/07.
+#
+# ⚠️ L'espace est volontairement a CINQ dimensions. Avec ~20 essais par famille, en ouvrir sept
+#    (en ajoutant `sampling_bloc` et `weight_decay`) reviendrait a echantillonner du bruit.
+# ⚠️ Les negatifs freres du jeu de validation sont PRESUMES : la PR-AUC est une borne inferieure,
+#    comparable entre essais, jamais publiable comme taux absolu.
+
+vars:
+  hf_token: null
+  data_path: "/lustre/fsn1/projects/rech/sxf/uhq31wo/CU2/synonym/V2_avril_2026/"
+  df_pos: "noiseA_df_pos.pkl"           # meme corpus que les familles (STEP=NOISEA)
+  df_neg: "df_neg.pkl"                    # df_neg.pkl (TF, RR) | lexneg_df_neg.pkl (LN)
+  val_dataset: "phase1_test_inclusion_taxo.pkl"
+  output_path: "/lustre/fsn1/projects/rech/sxf/uhq31wo/CU2/runs/synonym/tune-contr-TF-s2/"
+  seed: 42
+
+model_params:
+  model_name: "PARTAGES-dev/PARTAGES-camembertav2-base"
+  hf_token: ${vars.hf_token}
+  hidden_layer: 512
+  activation: "gelu"
+  dropout: 0.1
+  pooling: "attention"                  # la recette des familles TF/LN/RR (MP est en `mean`)
+  sigma: 0.
+  freeze_encoder: False
+
+warmup_config:
+  warmup_epochs: 2
+  encoder_learning_rate: 1e-6
+  classifier_learning_rate: 1e-3
+  weight_decay: 1e-2
+  sampling_probs:
+    hard: 1.0
+    cat: 0.
+    bloc: 0.7
+
+train_config:
+  train_epochs: 20
+  encoder_learning_rate: 1e-5
+  classifier_learning_rate: 5e-5
+  weight_decay: 1e-4
+  sampling_probs:
+    hard: 0.
+    cat: 0.
+    bloc: 0.9
+
+hyperparameters:
+  env.INFONCE_TEMP:
+    alias: "infonce_temp"
+    type: "float"
+    low: 0.01
+    high: 0.20
+    log: True
+  env.INFONCE_W_PAIR:
+    alias: "infonce_w_pair"
+    type: "float"
+    low: 0.1
+    high: 0.7
+    step: 0.1
+  train_config.encoder_learning_rate:
+    alias: "encoder_lr"
+    type: "float"
+    low: 5e-6
+    high: 3e-5
+    log: True
+  train_config.classifier_learning_rate:
+    alias: "classifier_lr"
+    type: "float"
+    low: 2e-5
+    high: 2e-4
+    log: True
+  model_params.dropout:
+    alias: "dropout"
+    type: "float"
+    low: 0.1
+    high: 0.4
+    step: 0.1
+
+tune:
+  model_params: ${model_params}
+  # ⚠️ C'est CETTE cle qui bascule l'architecture. Sans elle, `tune.py` retombe sur
+  #    `camembert_classifier` et l'on tunerait la mauvaise architecture SANS AUCUNE ERREUR.
+  #    Chaine volontairement plate : un dict `{"@factory": ...}` serait resolu par confit.
+  arch_factory: "camembert_contrastive"
+  hf_token: ${vars.hf_token}
+  data_path: ${vars.data_path}
+  df_pos: ${vars.df_pos}
+  df_neg: ${vars.df_neg}
+  val_dataset: ${vars.val_dataset}
+  batch_size: 180
+  max_length: 200
+  warmup_config: ${warmup_config}
+  train_config: ${train_config}
+  hyperparameters: ${hyperparameters}
+  n_trials: 4
+  n_epochs_per_trial: 20
+  output_path: ${vars.output_path}
+  model_weights: "best_model_tune.pt"
+  seed: ${vars.seed}
+  sampler_seed: 2
+  exp_dir: "/lustre/fsn1/projects/rech/sxf/uhq31wo/CU2/runs/synonym/tune-contr-TF-s2"
+  pruner_type: "median"
