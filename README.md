@@ -30,28 +30,52 @@ GPU kernels, mixed precision and dataloader ordering are not deterministic.
 
 ```
 provenance/
-  configs/<family>/<run>/config.yml   752 resolved training configs
-  manifests/<family>/<run>.json        74 run manifests (commit, config, data fingerprints)
-  runs_summary.csv                    725 runs: final loss, micro/macro P/R/F, steps, seed
+  configs/<family>/<run>/config.yml    90 resolved training configs
+  runs_summary.csv                     84 runs: final loss, micro/macro P/R/F, steps, seed
+  checkpoints_sha256.txt                6 qualifier checkpoints
 archive/                              full training histories (gitignored, see below)
 ```
 
+**Scope: only the runs behind a number in the paper.** The study explored 149 encoder arms; 135
+of them answer questions the paper does not report, and shipping them would invite a reader to
+reconstruct results we chose not to claim. What is here is the 14 arms of Table 1 at 6 seeds,
+plus the 6 checkpoints of the qualifier.
+
+| Table 1 row | native corpus | 30% corrupted |
+|---|---|---|
+| No filter | `clean` | `noisy` |
+| Verifier filter | `clean_v4_verif` | `filt_v4_verif` |
+| ⟶ same-size random drop | `cln_rnd_v4_verif` | `rnd_v4_verif` |
+| Reliabilizer filter | `clean_v4_fiab` | `filt_v4_fiab` |
+| ⟶ same-size random drop | `cln_rnd_v4_fiab` | `rnd_v4_fiab` |
+| Reliabilizer filter + margin | `clean_v4_veto` | `filt_v4_veto` |
+| ⟶ same-size random drop | `cln_rnd_v4_veto` | `rnd_v4_veto` |
+
+Each name takes the suffix `-s42` … `-s47`. The qualifier is
+`stepNOISEA-xE-contr{RR,LN}-s4{2,3,4}`.
+
 **`provenance/configs/` is the important part.** These are *resolved* configs, not templates:
 corpus paths, backbone, `max_step`, `loss_scale` and referential are substituted in. With the
-seed — encoded in the run name as `-s42` … `-s47` — each file is the complete recipe for one
-run. 654 encoder runs across **149 distinct arms** and 6 seeds, plus 71 qualifier runs.
+seed — encoded in the run name — each file is the complete recipe for one run.
 
 `runs_summary.csv` carries one row per run: family, arm, seed, steps, final loss, micro and
-macro precision/recall/F1. The full per-step histories, including the per-code breakdown over
-all 886 codes, are 860 MB raw and are kept as a compressed archive outside git.
+macro precision/recall/F1. Note that these are each run's own validation figures on the
+generated corpus; the paper's numbers come from re-scoring the saved predictions on the 288
+PARHAF cases, which is what level 2 does. The full per-step histories, including the per-code
+breakdown over all 886 codes, are 860 MB raw and are kept as a compressed archive outside git.
 
 ## Known gap in the provenance
 
-The 74 run manifests record the commit, the resolved config and the data fingerprints, but
-**none of them captured the environment variables**. For the encoder that is harmless: its
-configuration lives entirely in the config file. For the **qualifier** it is not — several of
-its training settings are read from the environment and are recorded nowhere, so its runs cannot
-be reconstructed exactly from this repository.
+Training runs wrote a manifest recording the commit, the resolved config and the data
+fingerprints. Of the 74 that survive, **not one captured the environment variables** — and none
+of the 74 documents a run reported in the paper, which is why no manifest is shipped here.
+
+For the encoder the gap is harmless: its configuration lives entirely in the config file, so
+`provenance/configs/` is complete. For the **qualifier** it is not — several of its training
+settings are read from the environment and are recorded nowhere, so its runs cannot be
+reconstructed exactly from this repository. The same gap explains why the qualifier contributes
+no row to `runs_summary.csv`: no per-run metrics survive under an identifiable arm name for its
+six checkpoints.
 
 That is why the qualifier's weights are published rather than only its recipe: for that model,
 the weights are the only faithful record. See [MODELS.md](MODELS.md).

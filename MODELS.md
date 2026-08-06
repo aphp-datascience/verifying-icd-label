@@ -41,10 +41,11 @@ without that context they invite exactly the mistake the folds exist to prevent.
 
 ## Not to publish
 
-The downstream classifier checkpoints — 149 arms × up to 6 seeds, 278 GB. Their recipe *is*
-recoverable (`provenance/configs/`), so the weights add nothing that cannot be regenerated, and
-an arm-specific checkpoint has no standalone meaning. Level 2 already reproduces every number
-they back.
+The downstream classifier checkpoints — 278 GB across the whole study, of which the 14 arms of
+Table 1 at 6 seeds are the part the paper rests on. Their recipe *is* recoverable
+(`provenance/configs/`), so the weights add nothing that cannot be regenerated, and an
+arm-specific checkpoint has no standalone meaning. Level 2 already reproduces every number they
+back.
 
 ## Checks
 
