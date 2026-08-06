@@ -58,14 +58,13 @@ the weights are the only faithful record. See [MODELS.md](MODELS.md).
 
 ## Code
 
-The pipeline lives in four repositories, each public:
+The pipeline lives in three repositories, each public:
 
 | Repository | Role |
 |---|---|
 | [partages-cu2-icd-evidence-extractor](https://github.com/aphp-datascience/partages-cu2-icd-evidence-extractor) | Extracts candidate evidence spans for a code |
 | [partages-cu2-icd-evidence-qualifier](https://github.com/aphp-datascience/partages-cu2-icd-evidence-qualifier) | Decides whether a span is a valid denomination of the code |
 | [partages-cu2-encoder-baseline](https://github.com/aphp-datascience/partages-cu2-encoder-baseline) | Downstream document-level ICD-10 classifier |
-| [partages-cu2-plm-icd](https://github.com/aphp-datascience/partages-cu2-plm-icd) | PLM-ICD-style comparison baseline |
 
 ## License
 
