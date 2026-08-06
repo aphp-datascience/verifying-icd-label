@@ -14,11 +14,11 @@
 # ⚠️ `0.1` est balayé. Ne JAMAIS retenir la valeur qui maximise PARHAF : ce serait régler
 #    sur le test. La grille se rapporte en entier, et la conclusion doit tenir à toutes les valeurs.
 #
-# Placeholders : /lustre/fsn1/projects/rech/sxf/uhq31wo/CU2/enc_noise/clean_v4_fiab PARTAGES-dev/PARTAGES-camembertav2-base /lustre/fsn1/projects/rech/sxf/uhq31wo/CU2/runs/encoder/x6_fiab_veto_sub-ls0.1-s43/artifacts @MAXSTEP@ /lustre/fsn1/projects/rech/sxf/uhq31wo/CU2/referentiel_v4/ref_gold_sub_veto 0.1.
+# Placeholders : ${SCRATCH}/CU2/enc_noise/clean_v4_fiab PARTAGES-dev/PARTAGES-camembertav2-base ${SCRATCH}/CU2/runs/encoder/x6_fiab_veto_sub-ls0.1-s43/artifacts @MAXSTEP@ ${SCRATCH}/CU2/referentiel_v4/ref_gold_sub_veto 0.1.
 
 vars:
-  train_path: "/lustre/fsn1/projects/rech/sxf/uhq31wo/CU2/enc_noise/clean_v4_fiab/train"
-  val_path: "/lustre/fsn1/projects/rech/sxf/uhq31wo/CU2/enc_noise/clean_v4_fiab/dev"
+  train_path: "${SCRATCH}/CU2/enc_noise/clean_v4_fiab/train"
+  val_path: "${SCRATCH}/CU2/enc_noise/clean_v4_fiab/dev"
   label_attr: ["dp"]
   max_step: 4000
   validation_interval: 500
@@ -32,8 +32,8 @@ nlp:
       heads:
         dp:
           '@misc': eds.single_label_head
-          labels: "/lustre/fsn1/projects/rech/sxf/uhq31wo/CU2/enc_noise/clean_v4_fiab/valid_labels_dp.pkl"
-          class_weights: "/lustre/fsn1/projects/rech/sxf/uhq31wo/CU2/enc_noise/clean_v4_fiab/label_freq_dict_dp.pkl"
+          labels: "${SCRATCH}/CU2/enc_noise/clean_v4_fiab/valid_labels_dp.pkl"
+          class_weights: "${SCRATCH}/CU2/enc_noise/clean_v4_fiab/label_freq_dict_dp.pkl"
           loss: "ce"
           hidden_size: 1024
           activation_mode: "gelu"
@@ -114,7 +114,7 @@ logger:
 syn_data:
   data:
     '@readers': parquet
-    path: "/lustre/fsn1/projects/rech/sxf/uhq31wo/CU2/referentiel_v4/ref_gold_sub_veto"
+    path: "${SCRATCH}/CU2/referentiel_v4/ref_gold_sub_veto"
     converter: omop
     doc_attributes: ${vars.label_attr}
   shuffle: dataset
@@ -135,7 +135,7 @@ train:
   max_steps: ${vars.max_step}
   validation_interval: ${vars.validation_interval}
   grad_max_norm: 1.0
-  output_dir: "/lustre/fsn1/projects/rech/sxf/uhq31wo/CU2/runs/encoder/x6_fiab_veto_sub-ls0.1-s43/artifacts"
+  output_dir: "${SCRATCH}/CU2/runs/encoder/x6_fiab_veto_sub-ls0.1-s43/artifacts"
   mixed_precision: "bf16"
   num_workers: 8
   logger: ${logger}

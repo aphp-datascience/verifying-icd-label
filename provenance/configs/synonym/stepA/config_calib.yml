@@ -1,6 +1,6 @@
 # Jean Zay config for the ICD-10 synonym qualifier, self-training curriculum.
 #
-# Placeholders (phase1_df_pos.pkl, /lustre/fsn1/projects/rech/sxf/uhq31wo/CU2/runs/synonym/stepA, best_model_stepA.pt) are substituted per step by
+# Placeholders (phase1_df_pos.pkl, ${SCRATCH}/CU2/runs/synonym/stepA, best_model_stepA.pt) are substituted per step by
 # jz/slurm/synonym_step.slurm. Kept out of the repo's own configs/config.yml so the
 # colleague's file stays untouched and no hard-coded token travels.
 #
@@ -14,15 +14,15 @@
 
 vars:
   hf_token: ""                       # public backbone: no token needed
-  data_path: "/lustre/fsn1/projects/rech/sxf/uhq31wo/CU2/synonym/V2_avril_2026/"
+  data_path: "${SCRATCH}/CU2/synonym/V2_avril_2026/"
   df_pos: "phase1_df_pos.pkl"
   df_neg: "df_neg.pkl"
   val_dataset: "phase1_test_inclusion.pkl"   # identical across steps, so the curve is comparable
-  output_path: "/lustre/fsn1/projects/rech/sxf/uhq31wo/CU2/runs/synonym/stepA/"
+  output_path: "${SCRATCH}/CU2/runs/synonym/stepA/"
   seed: 42
 
 model_params:
-  model_name: "/lustre/fsmisc/dataset/HuggingFace_Models/almanach/camembertav2-base"
+  model_name: "${DSDIR}/HuggingFace_Models/almanach/camembertav2-base"
   hf_token: ${vars.hf_token}
   hidden_layer: 512
   activation: "gelu"
@@ -77,7 +77,7 @@ train:
   output_path: ${vars.output_path}
   model_weights: "best_model_stepA.pt"
   seed: ${vars.seed}
-  exp_dir: "/lustre/fsn1/projects/rech/sxf/uhq31wo/CU2/runs/synonym/stepA/calib"
+  exp_dir: "${SCRATCH}/CU2/runs/synonym/stepA/calib"
 
 infere:
   model: ${model}
@@ -89,4 +89,4 @@ infere:
   output_path: ${vars.output_path}
   model_weights: "best_model_stepA.pt"
   seed: ${vars.seed}
-  exp_dir: "/lustre/fsn1/projects/rech/sxf/uhq31wo/CU2/runs/synonym/stepA/calib"
+  exp_dir: "${SCRATCH}/CU2/runs/synonym/stepA/calib"

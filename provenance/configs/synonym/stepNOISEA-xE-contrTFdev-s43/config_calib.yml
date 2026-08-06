@@ -19,11 +19,11 @@ vars:
   # comme trace d'expérience. huggingface_hub lit HF_TOKEN dans l'environnement, que le
   # script SLURM exporte depuis $WORK/.hf_token pour les seules variantes qui en ont besoin.
   hf_token: null
-  data_path: "/lustre/fsn1/projects/rech/sxf/uhq31wo/CU2/synonym/V2_avril_2026/"
+  data_path: "${SCRATCH}/CU2/synonym/V2_avril_2026/"
   df_pos: "noiseA_df_pos.pkl"
   df_neg: "df_neg.pkl"
   val_dataset: "dev_siamese.pkl"   # identical across steps, so the curve is comparable
-  output_path: "/lustre/fsn1/projects/rech/sxf/uhq31wo/CU2/runs/synonym/stepNOISEA-xE-contrTFdev-s43/"
+  output_path: "${SCRATCH}/CU2/runs/synonym/stepNOISEA-xE-contrTFdev-s43/"
   seed: 43
 
 model_params:
@@ -91,7 +91,7 @@ train:
   output_path: ${vars.output_path}
   model_weights: "best_model_stepNOISEA.pt"
   seed: ${vars.seed}
-  exp_dir: "/lustre/fsn1/projects/rech/sxf/uhq31wo/CU2/runs/synonym/stepNOISEA-xE-contrTFdev-s43/calib"
+  exp_dir: "${SCRATCH}/CU2/runs/synonym/stepNOISEA-xE-contrTFdev-s43/calib"
   # The qualifier is used at a calibrated threshold, never at argmax, so the checkpoint is
   # chosen on ranking quality. Selecting on f1 picked epoch 2 of 17 on the first run -- a
   # warmup epoch, second-worst pr_auc of the whole run.
@@ -108,4 +108,4 @@ infere:
   output_path: ${vars.output_path}
   model_weights: "best_model_stepNOISEA.pt"
   seed: ${vars.seed}
-  exp_dir: "/lustre/fsn1/projects/rech/sxf/uhq31wo/CU2/runs/synonym/stepNOISEA-xE-contrTFdev-s43/calib"
+  exp_dir: "${SCRATCH}/CU2/runs/synonym/stepNOISEA-xE-contrTFdev-s43/calib"

@@ -28,11 +28,11 @@
 
 vars:
   hf_token: null
-  data_path: "/lustre/fsn1/projects/rech/sxf/uhq31wo/CU2/synonym/V2_avril_2026/"
+  data_path: "${SCRATCH}/CU2/synonym/V2_avril_2026/"
   df_pos: "noiseA_df_pos.pkl"           # meme corpus que les familles (STEP=NOISEA)
   df_neg: "df_neg.pkl"                    # df_neg.pkl (TF, RR) | lexneg_df_neg.pkl (LN)
   val_dataset: "phase1_test_inclusion_taxo.pkl"
-  output_path: "/lustre/fsn1/projects/rech/sxf/uhq31wo/CU2/runs/synonym/tune-contr-RR-s1/"
+  output_path: "${SCRATCH}/CU2/runs/synonym/tune-contr-RR-s1/"
   seed: 42
 
 model_params:
@@ -119,5 +119,5 @@ tune:
   model_weights: "best_model_tune.pt"
   seed: ${vars.seed}
   sampler_seed: 1
-  exp_dir: "/lustre/fsn1/projects/rech/sxf/uhq31wo/CU2/runs/synonym/tune-contr-RR-s1"
+  exp_dir: "${SCRATCH}/CU2/runs/synonym/tune-contr-RR-s1"
   pruner_type: "median"
