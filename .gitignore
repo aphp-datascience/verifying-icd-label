@@ -16,6 +16,9 @@ data/
 *.csv
 !provenance/runs_summary.csv
 !results/*.csv
+# Released evaluation material — small, versioned on purpose.
+!annotations/*.csv
+!predictions/*.parquet
 
 # Python
 __pycache__/

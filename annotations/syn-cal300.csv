@@ -1,0 +1,301 @@
+span_id,code,definition,libelle,cos_rr_ln,gliner_score,bin,vote_opus,vote_fable_v2,vote_fable_v3,n_yes,label
+0,C153,Tumeur maligne du tiers supérieur de l'oesophage,envahissement de la musculeuse,-0.117982,0.1225,.08-.16,0,0,0,0,0
+1,C501,Tumeur maligne de la partie centrale du sein,"opacité spiculée rétro-mamelonnaire droite de 2,5 cm",0.287038,0.1569,.08-.16,1,0,0,1,0
+2,C502,Tumeur maligne du quadrant supéro-interne du sein,cancer du sein,0.463302,0.1221,.08-.16,0,0,0,0,0
+3,C61,Tumeur maligne de la prostate,"métastases hépatiques, pulmonaires ou osseuses",0.152622,0.1417,.08-.16,0,0,0,0,0
+4,C61,Tumeur maligne de la prostate,nodule suspect en lobe gauche,-0.017014,0.1286,.08-.16,0,0,0,0,0
+5,C61,Tumeur maligne de la prostate,"indurée en lobe droit, sans nodule suspect en lobe gauche",-0.058063,0.1323,.08-.16,1,0,0,1,0
+6,C629,"Tumeur maligne d'un testicule, sans précision",masse semblait limitée à la gonade,0.166453,0.1187,.08-.16,1,0,0,1,0
+7,C678,Tumeur maligne à localisations contiguës de la vessie,étendue au col vésical et à l'urètre proximal,0.20753,0.1455,.08-.16,1,0,0,1,0
+8,C693,Tumeur maligne de la choroïde,"masse pigmentée, bien délimitée, située en temporal supérieur",0.067664,0.1531,.08-.16,1,0,0,1,0
+9,D211,"Tumeur bénigne du tissu conjonctif et des autres tissus mous du membre supérieur, y compris l'épaule",évoluant depuis plusieurs mois,-0.046867,0.1416,.08-.16,0,0,0,0,0
+10,D212,"Tumeur bénigne du tissu conjonctif et des autres tissus mous du membre inférieur, y compris la hanche",tissu musculaire du groupe des ischio-jambiers,0.446098,0.0841,.08-.16,0,0,0,0,0
+11,D223,"Naevus à mélanocytes des parties de la face, autres et non précisées",structures vasculaires et nerveuses environnantes sont intactes,0.002618,0.0957,.08-.16,0,0,0,0,0
+12,D233,"Tumeur bénigne de la peau des parties de la face, autres et non précisées",lésion en monobloc,-0.044279,0.1192,.08-.16,0,0,0,0,0
+13,G540,Affections du plexus brachial,comprimé au niveau de la pince costo-claviculaire,0.047139,0.1033,.08-.16,1,0,0,1,0
+14,G576,Lésion du nerf plantaire,section des fibres aponévrotiques et musculaires compressives,0.0967,0.1159,.08-.16,0,0,0,0,0
+15,K353,Appendicite aigüe avec péritonite localisée,"inflammatoire, gangrené et perforé à sa partie moyenne",0.034828,0.0883,.08-.16,1,1,0,2,1
+16,K432,"Éventration post-opératoire, sans occlusion ni gangrène",évacuée sans difficulté,0.199513,0.0867,.08-.16,0,0,0,0,0
+17,K601,Fissure anale chronique,paquet hémorroïdaire isolé,0.044761,0.1406,.08-.16,0,0,0,0,0
+18,K603,Fistule anale,lésion suspecte visible sur le reste de l’examen endo-anal,0.185391,0.0806,.08-.16,0,0,0,0,0
+19,L980,Granulome pyogénique,lésion,0.066842,0.126,.08-.16,0,0,0,0,0
+20,M1901,"Arthrose primaire d'autres articulations - Articulations acromio-claviculaire, scapulo-humérale, et sterno-claviculaire",articulation scapulo-humérale présent,0.281031,0.1159,.08-.16,0,0,0,0,0
+21,M201,Hallux valgus (acquis),hypertrophie modérée,0.036663,0.0989,.08-.16,0,0,0,0,0
+22,M232,Lésion d'un ménisque due à une déchirure ou un traumatisme ancien,lésion chondrale significative,0.153628,0.0874,.08-.16,0,0,0,0,0
+23,M2322,Lésion d'un ménisque due à une déchirure ou un traumatisme ancien - CPMI,Cartilage fémoro-tibial et fémoro-patellaire d’aspect satisfaisant,-0.034423,0.0874,.08-.16,0,0,0,0,0
+24,M2323,Lésion d'un ménisque due à une déchirure ou un traumatisme ancien - Autre partie MI,séquellaire d'un ancien traumatisme sportif,0.145022,0.15,.08-.16,0,0,0,0,0
+25,M2333,Autres atteintes du ménisque - Autre partie MI,légère hypertrophie réactionnelle,-0.073004,0.0932,.08-.16,0,0,0,0,0
+26,M2335,Autres atteintes du ménisque - CPME,atteinte ligamentaire associée,0.079696,0.1419,.08-.16,0,0,0,0,0
+27,M2361,Autres ruptures spontanées de ligament(s) du genou - LCAE,cartilage articulaire d'aspect satisfaisant,0.038864,0.0804,.08-.16,0,0,0,0,0
+28,M2531,"Autres instabilités articulaires - Articulations acromio-claviculaire, scapulo-humérale, et sterno-claviculaire",ligaments gléno-huméraux inférieur et moyen,0.213222,0.0982,.08-.16,0,0,0,0,0
+29,M2567,"Raideur articulaire, non classée ailleurs - Articulations de la cheville et du pied",limite significativement la marche et le chaussage,0.42991,0.1006,.08-.16,0,0,0,0,0
+30,M512,Hernie d'un autre disque intervertébral précisé,disque intervertébral présent,0.647238,0.1287,.08-.16,0,0,0,0,0
+31,M6584,Autres synovites et ténosynovites - Main,matériel est désormais source d’irritation locale,0.036492,0.107,.08-.16,0,0,0,0,0
+32,M6587,Autres synovites et ténosynovites - Cheville et pied,évoluant depuis plusieurs mois malgré un traitement médical bien conduit,0.030505,0.1518,.08-.16,0,0,0,0,0
+33,M7133,Autres kystes des bourses séreuses - Avant-bras,lésion associée des tendons ou des nerfs périphériques,-0.101222,0.0979,.08-.16,0,0,0,0,0
+34,M7137,Autres kystes des bourses séreuses - Cheville et pied,irritation chronique par le kyste,0.283903,0.0821,.08-.16,1,1,0,2,1
+35,M795,Corps étranger résiduel dans un tissu mou,Tissus environnants légèrement fibreux,0.158516,0.1358,.08-.16,0,0,0,0,0
+36,M8667,Autres ostéomyélites chroniques - Cheville et pied,tissus synoviaux hypertrophiés et inflammatoires,-0.063972,0.0813,.08-.16,0,0,0,0,0
+37,M932,Ostéochondrite disséquante,lésion méniscale ou ligamentaire associée,-0.063733,0.1291,.08-.16,0,0,0,0,0
+38,N185,"Maladie rénale chronique, stade 5",lésion suspecte au niveau d'un repli péritonéal lor,0.004042,0.0899,.08-.16,0,0,0,0,0
+39,N411,Prostatite chronique,lésion suspecte de malignité,-0.026396,0.1515,.08-.16,0,0,0,0,0
+40,N46,"Stérilité, chez l'homme",stérilisation définitive,0.535192,0.11,.08-.16,0,0,0,0,0
+41,Q530,Testicule en situation anormale,cordon spermatique présent,0.128897,0.1028,.08-.16,0,0,0,0,0
+42,S5260,Fracture fermée de l'extrémité inférieure du cubitus et du radius,chute de sa hauteur,0.092238,0.1599,.08-.16,0,0,0,0,0
+43,S610,Plaie ouverte de(s) doigt(s) (sans lésion de l'ongle),accident domestique avec un objet tranchant,0.269575,0.1479,.08-.16,0,0,0,0,0
+44,S610,Plaie ouverte de(s) doigt(s) (sans lésion de l'ongle),accident domestique (coupure avec un couteau de cuisine,0.273014,0.0924,.08-.16,0,1,1,2,1
+45,S6230,Fracture fermée d'un autre os du métacarpe,lésion associée des tissus mous ou des structures articulaires adjacentes,-0.130464,0.0854,.08-.16,0,0,0,0,0
+46,S6260,Fracture fermée d'un autre doigt,plaie pulpo-unguéale mesurait environ 2 cm de long,0.027979,0.1271,.08-.16,0,0,0,0,0
+47,S641,Lésion traumatique du nerf médian au niveau du poignet et de la main,zone de contusion étendue sur environ 2 cm,-0.092721,0.1314,.08-.16,1,0,0,1,0
+48,S643,Lésion traumatique du nerf collatéral du pouce,Lambeau fasciocutané bien vascularisé après levée du garrot,0.012464,0.145,.08-.16,0,0,0,0,0
+49,S644,Lésion traumatique du nerf collatéral d'un autre doigt,lésion vasculaire associée n'a été observée,-0.011718,0.1185,.08-.16,0,0,0,0,0
+50,S668,Lésion traumatique d'autres muscles et tendons au niveau du poignet et de la main,lésion osseuse associée n'est objectivée,0.006528,0.1249,.08-.16,0,0,0,0,0
+51,S697,Lésions traumatiques multiples du poignet et de la main,Tissus environnants d'aspect sain après parage,0.035675,0.0843,.08-.16,0,0,0,0,0
+52,Z436,Surveillance d'autres stomies des voies urinaires,ouverture satisfaisante du trajet urétéral sans résistance majeure,0.428753,0.1494,.08-.16,0,0,0,0,0
+53,Z4580,Ajustement et entretien d'une prothèse interne urinaire,libérer les adhérences autour de la sonde JJ,0.40291,0.0921,.08-.16,1,1,1,3,1
+54,Z4588,Ajustement et entretien d'autres prothèses internes,Cathéter de dialyse péritonéale double cuff (type Tenckhoff,0.39167,0.119,.08-.16,1,0,0,1,0
+55,Z470,Soins de contrôle impliquant l'enlèvement d'une plaque et autre prothèse interne (orthopédique) de fixation,fermeture a été effectuée plan par plan,0.342376,0.1488,.08-.16,0,0,0,0,0
+56,Z470,Soins de contrôle impliquant l'enlèvement d'une plaque et autre prothèse interne (orthopédique) de fixation,Incision cutanée centrée sur la cicatrice précédente,0.271739,0.1295,.08-.16,0,0,0,0,0
+57,Z470,Soins de contrôle impliquant l'enlèvement d'une plaque et autre prothèse interne (orthopédique) de fixation,plaque vissée de 6 trous et de 4 vis corticales,0.46661,0.1475,.08-.16,1,0,0,1,0
+58,Z470,Soins de contrôle impliquant l'enlèvement d'une plaque et autre prothèse interne (orthopédique) de fixation,Biopsie osseuse réal,0.107252,0.0851,.08-.16,0,0,0,0,0
+59,Z480,Surveillance des sutures et pansements chirurgicaux,Hospitalisation en ambulatoire,0.034464,0.1117,.08-.16,0,0,0,0,0
+60,A6308,Autres condylomes ano-génitaux (vénériens),lésions condylomateuses,0.39741,0.2668,.16-.30,1,1,1,3,1
+61,C154,Tumeur maligne du tiers moyen de l'oesophage,cancer colorectal à 68 ans,-0.081598,0.2271,.16-.30,0,0,0,0,0
+62,C155,Tumeur maligne du tiers inférieur de l'oesophage,dysphagie progressive aux solides,0.080916,0.1774,.16-.30,0,0,0,0,0
+63,C259+8,"Tumeur maligne du pancréas, autre et non précisée",stéatose hépatique diffuse sans lésion secondaire identifiable,0.022562,0.2544,.16-.30,0,0,0,0,0
+64,C679,"Tumeur maligne de la vessie, sans précision",tumeur vésicale (RTUV,0.407055,0.2829,.16-.30,1,1,0,2,1
+65,E888,Autres anomalies métaboliques précisées,masses lipomateuses encapsulées,0.190097,0.2027,.16-.30,1,1,1,3,1
+66,G562,Lésion du nerf cubital,compression du nerf cubital au coude,0.632184,0.2509,.16-.30,1,1,1,3,1
+67,I808,Phlébite et thrombophlébite d'autres localisations,Œdème du membre supérieur droit,0.071975,0.2941,.16-.30,0,0,0,0,0
+68,K36,Autres formes d'appendicite,épaissi et légèrement adhérent au grand épiploon,0.091751,0.1923,.16-.30,1,0,0,1,0
+69,K409,"Hernie inguinale, (unilatérale ou) sans précision(, sans occlusion ni gangrène)",aponévrose du muscle oblique externe,0.091128,0.1818,.16-.30,0,0,0,0,0
+70,K409,"Hernie inguinale, (unilatérale ou) sans précision(, sans occlusion ni gangrène)",hernie crurale associée,0.150726,0.2354,.16-.30,0,0,0,0,0
+71,M181,Autres arthroses primaires de la première articulation carpo-métacarpienne,douleurs mécaniques invalidantes et d'une limitation fonctionnelle marquée,-0.101725,0.2746,.16-.30,0,0,0,0,0
+72,M1901,"Arthrose primaire d'autres articulations - Articulations acromio-claviculaire, scapulo-humérale, et sterno-claviculaire",pathologie dégénérative,0.081218,0.2176,.16-.30,0,1,0,1,0
+73,M1907,Arthrose primaire d'autres articulations - Articulations de la cheville et du pied,pincement complet de l'interligne,-0.074523,0.1907,.16-.30,1,1,1,3,1
+74,M202,Hallux rigidus,ostéophytose dorsale marquée de la tête du premier métatarsien,0.209738,0.2037,.16-.30,1,1,1,3,1
+75,M2147,Pied plat (pes planus) (acquis) - Cheville et pied,gêne fonctionnelle à la marche,0.222231,0.1728,.16-.30,0,0,0,0,0
+76,M2322,Lésion d'un ménisque due à une déchirure ou un traumatisme ancien - CPMI,zones d'usure modérée (stade II de Outerbridge,-0.039626,0.1885,.16-.30,0,0,0,0,0
+77,M2325,Lésion d'un ménisque due à une déchirure ou un traumatisme ancien - CPME,épisodes de blocages répétés du genou droit,0.092093,0.2849,.16-.30,0,0,0,0,0
+78,M2326,Lésion d'un ménisque due à une déchirure ou un traumatisme ancien - Autre partie ME,fragment instable,0.049535,0.1789,.16-.30,1,0,0,1,0
+79,M2336,Autres atteintes du ménisque - Autre partie ME,Ligaments croisés et latéraux intacts,0.199347,0.2144,.16-.30,0,0,0,0,0
+80,M2361,Autres ruptures spontanées de ligament(s) du genou - LCAE,Cartilage articulaire d’aspect satisfaisant,0.027392,0.1669,.16-.30,0,0,0,0,0
+81,M238,Autres lésions internes du genou,Absence de lésion franche du cartilage condylien ou tibial en regard,0.288752,0.2277,.16-.30,0,0,0,0,0
+82,M2427,Lésion ligamentaire - Articulations de la cheville et du pied,évoluant depuis plusieurs mois,0.031211,0.1634,.16-.30,0,0,0,0,0
+83,M2537,Autres instabilités articulaires - Articulations de la cheville et du pied,distension capsulo-ligamentaire importante,0.177593,0.2103,.16-.30,1,1,1,3,1
+84,M6504,Abcès de la gaine du tendon - Main,abcès collecté avec prélèvement bactériologique,0.225431,0.229,.16-.30,1,1,0,2,1
+85,M6514,Autres (téno)synovites infectieuses - Main,liquide trouble évocateur d’une infection subaiguë,0.005518,0.1979,.16-.30,1,1,0,2,1
+86,M6583,Autres synovites et ténosynovites - Avant-bras,zones synoviales hypertrophiées et inflammatoires,-0.019033,0.1639,.16-.30,1,1,1,3,1
+87,M6584,Autres synovites et ténosynovites - Main,corps étrangers profonds,-0.00995,0.1853,.16-.30,0,0,0,0,0
+88,M6584,Autres synovites et ténosynovites - Main,aponévrose palmaire moyenne,0.245335,0.2848,.16-.30,0,0,0,0,0
+89,M678,Autres atteintes précisées de la synoviale et du tendon,fibrose localisée,0.122829,0.1653,.16-.30,1,0,0,1,0
+90,M7114,Autres bursites infectieuses - Main,corps étranger profond des tissus mous de la main,0.123569,0.1837,.16-.30,0,0,0,0,0
+91,M751,Syndrome de la coiffe des rotateurs,berges tendineuses dégénératives mais réinsérables,0.34627,0.1823,.16-.30,1,0,0,1,0
+92,M756,Lésion du labrum [bourrelet glénoïdien] dans l'atteinte dégénérative de l'articulation de l'épaule,zones d'usure modérée sans lésion franche,-0.020423,0.2016,.16-.30,0,0,0,0,0
+93,M8617,Autres ostéomyélites aiguës - Cheville et pied,synovite inflammatoire importante autour des tendons de l'arrière-pied,0.299538,0.2394,.16-.30,0,0,0,0,0
+94,N44,Torsion du testicule,douleur scrotale aiguë gauche évoluant depuis quelques heures,0.203594,0.2039,.16-.30,0,0,0,0,0
+95,N47,"Hypertrophie du prépuce, phimosis et paraphimosis",adhérences importantes au niveau du sillon balano-préputial,0.073513,0.2732,.16-.30,1,0,0,1,0
+96,N47,"Hypertrophie du prépuce, phimosis et paraphimosis",hypertrophie préputiale,0.410841,0.2298,.16-.30,1,1,1,3,1
+97,S4220,Fracture fermée de l'extrémité supérieure de l'humérus,luxée en avant et en dedans,-0.03359,0.2023,.16-.30,0,0,0,0,0
+98,S4220,Fracture fermée de l'extrémité supérieure de l'humérus,déplacement important des fragments,0.031674,0.2188,.16-.30,0,0,0,0,0
+99,S5210,Fracture fermée de l'extrémité supérieure du radius,comminution modérée de la métaphyse proximale,0.063666,0.2703,.16-.30,1,1,0,2,1
+100,S610,Plaie ouverte de(s) doigt(s) (sans lésion de l'ongle),plaie de l'appareil extenseur,0.262555,0.2076,.16-.30,1,1,1,3,1
+101,S6260,Fracture fermée d'un autre doigt,impotence fonctionnelle totale du doigt,0.284436,0.2998,.16-.30,0,0,0,0,0
+102,S641,Lésion traumatique du nerf médian au niveau du poignet et de la main,plaie du nerf médian au poignet gauche par abord direct,0.846086,0.2913,.16-.30,1,1,1,3,1
+103,S641,Lésion traumatique du nerf médian au niveau du poignet et de la main,lésion traumatique du nerf médian,0.764126,0.2148,.16-.30,1,1,1,3,1
+104,S643,Lésion traumatique du nerf collatéral du pouce,névrome cicatriciel bien limité,0.005215,0.2472,.16-.30,1,1,1,3,1
+105,S643,Lésion traumatique du nerf collatéral du pouce,Absence de lésion tendineuse ou vasculaire associée,0.003373,0.1883,.16-.30,0,0,0,0,0
+106,S643,Lésion traumatique du nerf collatéral du pouce,section partielle sur environ 50 % de son diamètre,0.049573,0.2542,.16-.30,1,0,0,1,0
+107,S647,Lésion traumatique de multiples nerfs au niveau du poignet et de la main,Plaie franche et nette au niveau de la paume,-0.082527,0.1799,.16-.30,0,0,0,0,0
+108,S651,Lésion traumatique de l'artère radiale au niveau du poignet et de la main,section complète de l'artère digitale palmaire du troisième rayon,0.312683,0.2795,.16-.30,0,0,0,0,0
+109,S655,Lésion traumatique de vaisseau(x) sanguin(s) d'un autre doigt,artère digitale ulnaire du 4ème doigt présent,0.436467,0.2071,.16-.30,0,0,0,0,0
+110,S661,Lésion traumatique du muscle et du tendon fléchisseurs d'un autre doigt au niveau du poignet et de la main,tendon fléchisseur superficiel de l'annulaire présent,0.458972,0.2526,.16-.30,0,0,0,0,0
+111,S663,Lésion traumatique du muscle et du tendon extenseurs d'un autre doigt au niveau du poignet et de la main,section des tendons fléchisseurs,0.318005,0.2419,.16-.30,0,0,0,0,0
+112,S681,Amputation traumatique d'un autre doigt (complète) (partielle),survenue dans un contexte accidentel domestique,0.001312,0.2122,.16-.30,0,0,0,0,0
+113,S8210,Fracture fermée de l'extrémité supérieure du tibia,laxité méniscale importante avec blocages articulaires à répétition,-0.053905,0.2112,.16-.30,0,0,0,0,0
+114,Z423,Soins de contrôle comprenant une opération plastique des extrémités supérieures,chirurgie reconstructrice secondaire,0.454025,0.196,.16-.30,1,1,1,3,1
+115,Z4588,Ajustement et entretien d'autres prothèses internes,transition vers la dialyse péritonéale,0.201474,0.2563,.16-.30,0,0,0,0,0
+116,Z462,Mise en place et ajustement d'autres appareils en rapport avec le système nerveux et les organes des sens,Incision cutanée elliptique centrée sur la lésion,0.004976,0.1895,.16-.30,0,0,0,0,0
+117,Z470,Soins de contrôle impliquant l'enlèvement d'une plaque et autre prothèse interne (orthopédique) de fixation,ostéosynthèse interne (plaque et vis,0.665063,0.1765,.16-.30,1,0,0,1,0
+118,Z470,Soins de contrôle impliquant l'enlèvement d'une plaque et autre prothèse interne (orthopédique) de fixation,lavage abondant au sérum physiologique,0.003011,0.176,.16-.30,0,0,0,0,0
+119,Z470,Soins de contrôle impliquant l'enlèvement d'une plaque et autre prothèse interne (orthopédique) de fixation,Ablation des vis et de la plaque sans difficulté particulière,0.544559,0.2075,.16-.30,1,1,1,3,1
+120,C163,Tumeur maligne de l'antre pylorique,lésion ulcéro-bourgeonnante de l'antre pylorique,0.75983,0.3279,.30-.55,1,1,0,2,1
+121,C180,Tumeur maligne du caecum,adénocarcinome moyennement différencié (grade 2,0.135782,0.4172,.30-.55,1,1,0,2,1
+122,C250,Tumeur maligne de la tête du pancréas,adénocarcinome de la tête du pancréas,0.944491,0.496,.30-.55,1,1,1,3,1
+123,C257,Tumeur maligne d'autres parties du pancréas,adénocarcinome du col du pancréas,0.603962,0.5142,.30-.55,1,1,1,3,1
+124,C342,"Tumeur maligne du lobe moyen, bronches ou poumon",opacité suspecte du lobe moyen droit,0.236386,0.3417,.30-.55,1,0,0,1,0
+125,C349,"Tumeur maligne de bronche ou du poumon, sans précision",masse lobaire supérieure droite de 4 cm,0.193749,0.3896,.30-.55,1,0,0,1,0
+126,C508,Tumeur maligne à localisations contiguës du sein,carcinome canalaire infiltrant de grade II (SBR 6,0.219295,0.3771,.30-.55,1,1,1,3,1
+127,C679,"Tumeur maligne de la vessie, sans précision",lésion tumorale vésicale,0.71896,0.4293,.30-.55,1,1,0,2,1
+128,C800,"Tumeur maligne de siège primitif non précisé, ainsi décrit",adénocarcinome métastatique de primitif inconnu,0.704383,0.4817,.30-.55,1,1,1,3,1
+129,C821,"Lymphome folliculaire, grade II",lymphome folliculaire de grade II,0.941697,0.5098,.30-.55,1,1,1,3,1
+130,C829,"Lymphome folliculaire, sans précision",lymphome folliculaire grade 1-2,0.639742,0.4406,.30-.55,1,1,1,3,1
+131,D180,"Hémangiome, tout siège",hémangiome caverneux étendu,0.630891,0.5428,.30-.55,1,1,1,3,1
+132,G540,Affections du plexus brachial,compression significative du plexus brachial au niveau du défilé costo-claviculaire,0.594249,0.3958,.30-.55,1,1,1,3,1
+133,G561,Autres lésions du nerf médian,compression chronique du nerf médian au poignet droit,0.63924,0.5494,.30-.55,1,1,1,3,1
+134,G568,Autres mononévrites du membre supérieur,ténosynovite modérée autour des tendons fléchisseurs,0.26149,0.4357,.30-.55,0,0,0,0,0
+135,G568,Autres mononévrites du membre supérieur,irritation nerveuse locale au poignet,0.482991,0.3794,.30-.55,1,1,0,2,1
+136,K402,"Hernie inguinale bilatérale, (sans occlusion ni gangrène)",Hernies inguinales bilatérales indirectes,0.674065,0.397,.30-.55,1,1,1,3,1
+137,K409,"Hernie inguinale, (unilatérale ou) sans précision(, sans occlusion ni gangrène)",Hernie inguinale droite directe,0.626868,0.4536,.30-.55,1,1,1,3,1
+138,K409,"Hernie inguinale, (unilatérale ou) sans précision(, sans occlusion ni gangrène)",Hernie inguinale indirecte droite,0.572922,0.3629,.30-.55,1,1,1,3,1
+139,L050,Sinus pilonidal avec abcès,Abcès pilonidal collecté en région sacro-coccygienne,0.63051,0.4367,.30-.55,1,1,1,3,1
+140,M1901,"Arthrose primaire d'autres articulations - Articulations acromio-claviculaire, scapulo-humérale, et sterno-claviculaire",atteinte associée des articulations acromio-claviculaire et sterno-claviculaire,0.365479,0.3746,.30-.55,1,1,0,2,1
+141,M1903,Arthrose primaire d'autres articulations - Articulation du poignet,arthrose sévère du poignet,0.699045,0.4515,.30-.55,1,1,1,3,1
+142,M205,Autres déformations d'(es) orteil(s),bride fibreuse rétractile au niveau de l'aponévrose plantaire,0.221341,0.3466,.30-.55,0,0,0,0,0
+143,M2147,Pied plat (pes planus) (acquis) - Cheville et pied,effondrement de la voûte plantaire gauche,0.569614,0.3028,.30-.55,1,1,1,3,1
+144,M2333,Autres atteintes du ménisque - Autre partie MI,atteinte méniscale interne,0.666382,0.4006,.30-.55,1,1,1,3,1
+145,M2361,Autres ruptures spontanées de ligament(s) du genou - LCAE,Rupture complète du LCAE en plein corps,0.558956,0.3866,.30-.55,1,1,1,3,1
+146,M238,Autres lésions internes du genou,douleurs mécaniques du genou droit évoluant depuis plusieurs mois,0.475106,0.4692,.30-.55,0,0,0,0,0
+147,M2421,"Lésion ligamentaire - Articulations acromio-claviculaire, scapulo-humérale, et sterno-claviculaire",instabilité ligamentaire chronique de l’épaule droite,0.529176,0.5365,.30-.55,1,1,1,3,1
+148,M2537,Autres instabilités articulaires - Articulations de la cheville et du pied,sensation d'insécurité à la marche,0.284445,0.3058,.30-.55,0,0,0,0,0
+149,M654,Ténosynovite chronique sténosante du pouce [de Quervain],ténosynovite chronique sténosante du pouce droit,0.875902,0.519,.30-.55,1,1,1,3,1
+150,M6583,Autres synovites et ténosynovites - Avant-bras,synovite hypertrophique au niveau des gaines des extenseurs du poignet,0.432861,0.4465,.30-.55,1,1,1,3,1
+151,M6583,Autres synovites et ténosynovites - Avant-bras,ténosynovite chronique du poignet droit évoluant depuis plusieurs mois,0.661652,0.454,.30-.55,1,1,1,3,1
+152,M6584,Autres synovites et ténosynovites - Main,synovite marquée au niveau des gaines tendineuses du premier espace interosseux,0.301059,0.4585,.30-.55,1,1,1,3,1
+153,M6584,Autres synovites et ténosynovites - Main,plaie pulpo-unguéale du 3ème doigt de la main droite,0.292876,0.3921,.30-.55,0,0,0,0,0
+154,M678,Autres atteintes précisées de la synoviale et du tendon,ténosynovite chronique des fléchisseurs du 3ème rayon de la main droite,0.15,0.5301,.30-.55,1,1,1,3,1
+155,M7204,Fibromatose de l'aponévrose palmaire (Dupuytren) - Main,aponévrose palmaire moyenne,0.606238,0.3441,.30-.55,0,0,0,0,0
+156,M758,Autres lésions de l'épaule,lésion dégénérative de la coiffe des rotateurs et des adhérences intra-articulaires,0.241826,0.4361,.30-.55,1,1,1,3,1
+157,M8987,Autres maladies osseuses précisées - Cheville et pied,adhérences fibreuses importantes au niveau de l'articulation tibiotalienne,0.12136,0.3273,.30-.55,0,0,0,0,0
+158,N328,Autres affections précisées de la vessie,épisodes d'incontinence urinaire,0.182654,0.3656,.30-.55,0,0,0,0,0
+159,N811,Cystocèle,prolapsus de la paroi antérieure du vagin avec descente vésicale,0.310205,0.4597,.30-.55,1,1,1,3,1
+160,Q627,Reflux vésico-urétéro-rénal congénital,reflux vésico-urétéral bilatéral,0.751012,0.3722,.30-.55,1,1,0,2,1
+161,Q691,Pouce(s) surnuméraire(s),pédicule vasculaire et nerveux accessoire,0.150077,0.3346,.30-.55,0,0,0,0,0
+162,S4240,Fracture fermée de l'extrémité inférieure de l'humérus,Fracture supracondylienne de l'humérus distal,0.74397,0.4728,.30-.55,1,1,1,3,1
+163,S4240,Fracture fermée de l'extrémité inférieure de l'humérus,fracture fermée de l'extrémité inférieure de l'humérus,1.0,0.4197,.30-.55,1,1,1,3,1
+164,S5250,Fracture fermée de l'extrémité inférieure du radius,fracture fermée de l’extrémité inférieure du radius,0.852785,0.3537,.30-.55,1,1,1,3,1
+165,S5250,Fracture fermée de l'extrémité inférieure du radius,fracture de Pouteau-Colles,0.181707,0.3862,.30-.55,1,1,1,3,1
+166,S611,Plaie ouverte de(s) doigt(s) avec lésion de l'ongle,plaie ouverte du troisième doigt de la main droite,0.471492,0.4931,.30-.55,1,1,1,3,1
+167,S617,Plaies ouvertes multiples du poignet et de la main,plaie délabrante de la main droite avec atteinte du poignet,0.459239,0.5028,.30-.55,1,1,1,3,1
+168,S6220,Fracture fermée du premier métacarpien,fracture articulaire de la base du premier métacarpien,0.826762,0.4236,.30-.55,1,1,1,3,1
+169,S6230,Fracture fermée d'un autre os du métacarpe,Fracture articulaire de la tête du 4ème métacarpien,0.728598,0.4776,.30-.55,1,1,1,3,1
+170,S6261,Fracture ouverte d'un autre doigt,fracture ouverte d'un doigt long de la main droite,0.753084,0.4888,.30-.55,1,1,1,3,1
+171,S648,Lésion traumatique d'autres nerfs au niveau du poignet et de la main,traumatisme ancien non précisé,0.009321,0.4816,.30-.55,0,0,0,0,0
+172,S651,Lésion traumatique de l'artère radiale au niveau du poignet et de la main,section partielle de l'artère radiale au niveau du poignet,0.887631,0.4922,.30-.55,1,1,1,3,1
+173,S661,Lésion traumatique du muscle et du tendon fléchisseurs d'un autre doigt au niveau du poignet et de la main,tendon fléchisseur superficiel et profond de l'annulaire,0.542565,0.3902,.30-.55,0,0,0,0,0
+174,S662,Lésion traumatique du muscle et du tendon extenseurs du pouce au niveau du poignet et de la main,fracture extra-articulaire d'un os de la main,0.159958,0.3001,.30-.55,0,0,0,0,0
+175,S662,Lésion traumatique du muscle et du tendon extenseurs du pouce au niveau du poignet et de la main,ténosynovite chronique des tendons extenseurs du pouce,0.557646,0.4196,.30-.55,0,0,0,0,0
+176,S663,Lésion traumatique du muscle et du tendon extenseurs d'un autre doigt au niveau du poignet et de la main,impotence fonctionnelle partielle du doigt concerné,0.211173,0.4282,.30-.55,0,0,0,0,0
+177,S681,Amputation traumatique d'un autre doigt (complète) (partielle),amputation traumatique partielle de l'annulaire,0.597943,0.4569,.30-.55,1,1,1,3,1
+178,S835,Entorse et foulure des ligaments croisés du genou (antérieur) (postérieur),instabilité marquée du genou,0.294472,0.4067,.30-.55,0,0,0,0,0
+179,S860,Lésion traumatique du tendon d'Achille,rupture du tendon d'Achille droit,0.819527,0.537,.30-.55,1,1,1,3,1
+180,C329,"Tumeur maligne du larynx, sans précision",œdème des membres inférieurs,-0.021547,0.0737,<.08,0,0,0,0,0
+181,C509,"Tumeur maligne du sein, sans précision",Pâleur cutanéo-muqueuse discrète,0.011218,0.0685,<.08,0,0,0,0,0
+182,C56,Tumeur maligne de l'ovaire,chambre implantable en sous-clavière gauche en mars 2025 pour chimiothérapie,0.005941,0.0628,<.08,0,0,0,0,0
+183,C56,Tumeur maligne de l'ovaire,métastase hépatique,0.079349,0.075,<.08,0,0,0,0,0
+184,C61,Tumeur maligne de la prostate,OGE sans particularité,-0.009194,0.0507,<.08,0,0,0,0,0
+185,C884,Lymphome de la zone marginale à cellules B des tissus lymphoïdes associés aux muqueuses [lymphome MALT],ALAT 25 UI/L,0.121997,0.0718,<.08,0,0,0,0,0
+186,K358,"Appendicites aigües, autres et non précisées",occlusion intestinale aiguë,0.400217,0.0541,<.08,0,0,0,0,0
+187,K429,"Hernie ombilicale, (sans occlusion ni gangrène)",sac jusqu’à son collet,0.253402,0.0544,<.08,0,0,0,0,0
+188,K429,"Hernie ombilicale, (sans occlusion ni gangrène)",sans signe d'étranglement ni de souffrance digestive,0.07515,0.0748,<.08,0,0,0,0,0
+189,K610,Abcès anal,localisé à 2 cm de la marge anale,0.270635,0.0778,<.08,0,0,0,0,0
+190,K801,Calcul de la vésicule biliaire avec une autre forme de cholécystite,endoprothèse biliaire par cholédochotomie sous cœlioscopie,0.098331,0.0621,<.08,0,0,0,0,0
+191,K801,Calcul de la vésicule biliaire avec une autre forme de cholécystite,épisodes de coliques hépatiques,0.102259,0.0721,<.08,0,0,0,0,0
+192,L721,Kyste sébacé,berges d'exérèse sont saines,0.025042,0.0622,<.08,0,0,0,0,0
+193,M190,Arthrose primaire d'autres articulations,"signes de rétraction modérée, sans rupture",-0.048184,0.0798,<.08,0,0,0,0,0
+194,M1907,Arthrose primaire d'autres articulations - Articulations de la cheville et du pied,axe mécanique du membre inférieur,0.248978,0.0608,<.08,0,0,0,0,0
+195,M201,Hallux valgus (acquis),transfert partiel sur la capsule articulaire médiale,-0.080522,0.0622,<.08,0,0,0,0,0
+196,M232,Lésion d'un ménisque due à une déchirure ou un traumatisme ancien,douloureux à la palpation de l'interligne médial,-0.074147,0.069,<.08,0,0,0,0,0
+197,M2322,Lésion d'un ménisque due à une déchirure ou un traumatisme ancien - CPMI,lésion,0.056117,0.0526,<.08,0,0,0,0,0
+198,M2332,Autres atteintes du ménisque - CPMI,suture du ménisque interne du genou droit par arthroscopie,0.493017,0.0558,<.08,1,1,0,2,1
+199,M2334,Autres atteintes du ménisque - CAME,bord stable et régulier,-0.004202,0.061,<.08,0,0,0,0,0
+200,M2351,Instabilité chronique du genou - LCAE,arcade du muscle long fibulaire,0.134628,0.0573,<.08,0,0,0,0,0
+201,M2564,"Raideur articulaire, non classée ailleurs - Articulations de la main",compression extrinsèque évidente,0.034334,0.0672,<.08,0,0,0,0,0
+202,M653,"Doigt ""à ressort""",lésion traumatique récente ou de calcification tendineuse,-0.031074,0.0778,<.08,0,0,0,0,0
+203,M6544,Ténosynovite chronique sténosante du pouce (de Quervain) - Main,gaine synoviale épaissie et inflammatoire,0.017739,0.0678,<.08,1,1,1,3,1
+204,M6584,Autres synovites et ténosynovites - Main,autogreffe de peau totale,-0.054775,0.0514,<.08,0,0,0,0,0
+205,M6587,Autres synovites et ténosynovites - Cheville et pied,mobilité articulaire proche de la normale,-0.004363,0.059,<.08,0,0,0,0,0
+206,M6587,Autres synovites et ténosynovites - Cheville et pied,libération mobilisatrice de l’articulation métatarsophalangienne de l’hallux,0.016879,0.0715,<.08,0,0,0,0,0
+207,M6594,"Synovite et ténosynovite, sans précision - Main",synoviale présentait un aspect inflammatoire marqué,-0.05916,0.0793,<.08,1,1,1,3,1
+208,M7134,Autres kystes des bourses séreuses - Main,exérèse complète du kyste,0.360687,0.0522,<.08,1,1,1,3,1
+209,M7204,Fibromatose de l'aponévrose palmaire (Dupuytren) - Main,nerf spinal superficiel présent,0.083126,0.0619,<.08,0,0,0,0,0
+210,M7204,Fibromatose de l'aponévrose palmaire (Dupuytren) - Main,pédicules digitaux des 4e et 5e doigts,0.521393,0.061,<.08,0,0,0,0,0
+211,M774,Métatarsalgie,première articulation métatarsophalangienne,-0.030399,0.0593,<.08,0,0,0,0,0
+212,M7953,Corps étranger résiduel dans un tissu mou - Avant-bras,nerf ulnaire,0.141049,0.0795,<.08,0,0,0,0,0
+213,M7954,Corps étranger résiduel dans un tissu mou - Main,tissus mous péri-articulaires du 3ᵉ doigt,0.4213,0.0783,<.08,0,0,0,0,0
+214,M7954,Corps étranger résiduel dans un tissu mou - Main,sans signe d'infection locale,0.00281,0.0663,<.08,0,0,0,0,0
+215,M7954,Corps étranger résiduel dans un tissu mou - Main,corps étranger majeure n’a été observé,0.397822,0.0737,<.08,0,0,0,0,0
+216,N131,"Hydronéphrose avec rétrécissement urétéral, non classée ailleurs",muqueuse urétérale en amont de la sténose,0.58195,0.0502,<.08,1,0,0,1,0
+217,N200,Calcul du rein,calcul visible,0.435071,0.0714,<.08,0,0,0,0,0
+218,N358,Autres rétrécissements urétraux,tableau évocateur d,-0.056175,0.0648,<.08,0,0,0,0,0
+219,R935,"Résultats anormaux d'imagerie diagnostique d'autres parties de l'abdomen, y compris l'espace rétropéritonéal",hémostase soigneuse,-0.042802,0.0512,<.08,0,0,0,0,0
+220,S610,Plaie ouverte de(s) doigt(s) (sans lésion de l'ongle),partiellement lésée,0.167635,0.0511,<.08,0,0,0,0,0
+221,S610,Plaie ouverte de(s) doigt(s) (sans lésion de l'ongle),gaine des fléchisseurs au niveau de la paume de la main,0.246395,0.0601,<.08,0,0,0,0,0
+222,S6240,Fractures fermées multiples des métacarpiens,longueur et un alignement satisfaisants des métacarpiens,0.603436,0.0624,<.08,0,0,0,0,0
+223,S6260,Fracture fermée d'un autre doigt,sans comminution ni extension articulaire,0.080498,0.0762,<.08,0,0,0,0,0
+224,S631,Luxation du doigt,articulation stable après réduction,0.094133,0.067,<.08,0,0,0,0,0
+225,S642,Lésion traumatique du nerf radial au niveau du poignet et de la main,douleur persistante,-0.003176,0.0663,<.08,0,0,0,0,0
+226,S648,Lésion traumatique d'autres nerfs au niveau du poignet et de la main,corps étranger profond,-0.138668,0.0708,<.08,0,0,0,0,0
+227,S661,Lésion traumatique du muscle et du tendon fléchisseurs d'un autre doigt au niveau du poignet et de la main,ouverture de la gaine des fléchisseurs,0.381436,0.0654,<.08,0,0,0,0,0
+228,S663,Lésion traumatique du muscle et du tendon extenseurs d'un autre doigt au niveau du poignet et de la main,lésion associée n'a été retrouvée,-0.038773,0.0764,<.08,0,0,0,0,0
+229,S663,Lésion traumatique du muscle et du tendon extenseurs d'un autre doigt au niveau du poignet et de la main,présent,-0.027693,0.0736,<.08,0,0,0,0,0
+230,S667,Lésion traumatique de multiples muscles et tendons extenseurs au niveau du poignet et de la main,tendons extenseurs au niveau du poignet et de la main droite,0.537453,0.0623,<.08,0,0,0,0,0
+231,S681,Amputation traumatique d'un autre doigt (complète) (partielle),bras en abduction sur table à bras,-0.009737,0.0562,<.08,0,0,0,0,0
+232,S8260,Fracture fermée de la malléole externe,ouverture cutanée ni de signe d'ischémie distale,0.086974,0.0716,<.08,0,0,0,0,0
+233,S8280,Fractures fermées d'autres parties de la jambe,cal osseux,0.145488,0.059,<.08,1,0,0,1,0
+234,S837,Lésion traumatique de multiples parties du genou,survenue lors d'une activité sportive,-0.068499,0.073,<.08,0,0,0,0,0
+235,S931,Luxation d'un (des) orteil(s),lésion osseuse associée n'a été observée,-0.090451,0.0695,<.08,0,0,0,0,0
+236,Z462,Mise en place et ajustement d'autres appareils en rapport avec le système nerveux et les organes des sens,Tympans bilatéraux légèrement inflammatoires,0.032781,0.0595,<.08,0,0,0,0,0
+237,Z470,Soins de contrôle impliquant l'enlèvement d'une plaque et autre prothèse interne (orthopédique) de fixation,décubitus dorsal,0.092185,0.0686,<.08,0,0,0,0,0
+238,Z4780,Soins de contrôle d'appareil externe de fixation ou de traction,tournevis adapté,0.463652,0.0728,<.08,0,0,0,0,0
+239,Z490,Soins préparatoires en vue d'une dialyse,péritoine était légèrement inflammatoire,0.053266,0.0644,<.08,0,0,0,0,0
+240,C693,Tumeur maligne de la choroïde,mélanome malin de la choroïde droite,0.766937,0.5709,>.55,1,1,1,3,1
+241,C830,Lymphome à petites cellules B,lymphome malin non hodgkinien à petites cellules B,0.891717,0.5569,>.55,1,1,1,3,1
+242,C833,Lymphome diffus à grandes cellules B,lymphome malin diffus à grandes cellules B,0.962282,0.66,>.55,1,1,1,3,1
+243,D220,Naevus à mélanocytes de la lèvre,naevus pigmenté de la lèvre inférieure,0.791712,0.6073,>.55,1,1,1,3,1
+244,D234,Tumeur bénigne de la peau du cuir chevelu et du cou,lésion sous-cutanée sus-fasciale de la région temporale droite,0.412732,0.5602,>.55,1,0,0,1,0
+245,D292,Tumeur bénigne du testicule,tumeur bénigne du testicule droit,0.936259,0.6039,>.55,1,1,1,3,1
+246,G563,Lésion du nerf radial,"paralysie du nerf radial droit, évoluant depuis plusieurs mois",0.809155,0.5608,>.55,1,1,1,3,1
+247,K409,"Hernie inguinale, (unilatérale ou) sans précision(, sans occlusion ni gangrène)",hernie inguinale droite non compliquée,0.762271,0.6095,>.55,1,1,1,3,1
+248,K429,"Hernie ombilicale, (sans occlusion ni gangrène)",hernie sous-ombilicale de taille modérée,0.741949,0.5548,>.55,1,1,1,3,1
+249,K601,Fissure anale chronique,fissure anale chronique,1.0,0.5678,>.55,1,1,1,3,1
+250,K602,"Fissure anale, sans précision",fissure anale postérieure sans signe d'abcédation,0.707739,0.5869,>.55,1,1,1,3,1
+251,K648,Autres hémorroïdes précisées,hémorroïdes internes symptomatiques avec épisodes de saignements répétés,0.400587,0.5621,>.55,1,1,1,3,1
+252,L050,Sinus pilonidal avec abcès,sinus pilonidal compliqué d'un abcès de la région périnéofessière,0.804778,0.5893,>.55,1,1,1,3,1
+253,L059,Sinus pilonidal (sans abcès),kyste pilonidal chronique sans abcès,0.479896,0.6116,>.55,1,1,1,3,1
+254,L059,Sinus pilonidal (sans abcès),kyste pilonidal chronique sans abcès connu,0.479425,0.59,>.55,1,1,1,3,1
+255,L600,Ongle incarné,ongle incarné du gros orteil droit,0.641632,0.646,>.55,1,1,1,3,1
+256,L600,Ongle incarné,ongle incarné du gros orteil droit,0.641632,0.6617,>.55,1,1,1,3,1
+257,L603,Dystrophie des ongles,dystrophie unguéale sévère touchant plusieurs doigts,0.517547,0.5738,>.55,1,1,1,3,1
+258,L732,Hidrosadénite suppurée,hidrosadénite suppurée chronique axillaire droite,0.539572,0.6399,>.55,1,1,1,3,1
+259,L732,Hidrosadénite suppurée,hidrosadénite suppurée axillaire droite,0.664302,0.6023,>.55,1,1,1,3,1
+260,L732,Hidrosadénite suppurée,hidrosadénite suppurée active,0.921939,0.5849,>.55,1,1,1,3,1
+261,L910,Cicatrice hypertrophique,cicatrice hypertrophique invalidante au niveau de l'avant-bras gauche,0.443734,0.5926,>.55,1,1,1,3,1
+262,M1394,"Arthrite, sans précision - Articulations de la main",arthrite inflammatoire chronique de la main gauche,0.551462,0.5643,>.55,1,1,1,3,1
+263,M1901,"Arthrose primaire d'autres articulations - Articulations acromio-claviculaire, scapulo-humérale, et sterno-claviculaire",arthrose évoluée de l'épaule,0.7159,0.5941,>.55,1,1,1,3,1
+264,M1901,"Arthrose primaire d'autres articulations - Articulations acromio-claviculaire, scapulo-humérale, et sterno-claviculaire",arthrose évoluée de l'épaule droite,0.693127,0.5743,>.55,1,1,1,3,1
+265,M1904,Arthrose primaire d'autres articulations - Articulations de la main,arthrose primitive des articulations de la main droite,0.792538,0.5898,>.55,1,1,1,3,1
+266,M1913,Arthrose post-traumatique d'autres articulations - Articulation du poignet,arthrose post-traumatique du poignet droit,0.879013,0.554,>.55,1,1,1,3,1
+267,M201,Hallux valgus (acquis),hallux valgus gauche opéré il y a quelques années,0.761351,0.5803,>.55,1,1,1,3,1
+268,M2326,Lésion d'un ménisque due à une déchirure ou un traumatisme ancien - Autre partie ME,lésion méniscale externe ancienne,0.745449,0.5583,>.55,1,1,1,3,1
+269,M2351,Instabilité chronique du genou - LCAE,instabilité chronique du genou droit évoluant depuis plusieurs mois,0.765859,0.5573,>.55,1,1,1,3,1
+270,M2537,Autres instabilités articulaires - Articulations de la cheville et du pied,instabilité chronique de la cheville et de l’arrière-pied,0.77824,0.5762,>.55,1,1,1,3,1
+271,M2577,Ostéophyte - Articulations de la cheville et du pied,ostéophyte volumineux à ce niveau,0.552018,0.563,>.55,1,1,1,3,1
+272,M653,"Doigt ""à ressort""",doigt à ressort au niveau de la main droite,0.771434,0.6384,>.55,1,1,1,3,1
+273,M6584,Autres synovites et ténosynovites - Main,ténosynovite inflammatoire de la main droite,0.7593,0.5521,>.55,1,1,1,3,1
+274,M674,Kyste (articulaire),kyste synovial douloureux de la main droite,0.514157,0.6304,>.55,1,1,1,3,1
+275,M674,Kyste (articulaire),kyste articulaire de l'épaule droite,0.631236,0.6502,>.55,1,1,1,3,1
+276,M674,Kyste (articulaire),kyste synovial du coude droit évoluant depuis plusieurs mois,0.441108,0.6007,>.55,1,1,1,3,1
+277,M674,Kyste (articulaire),kyste synovial,0.836786,0.5822,>.55,1,1,1,3,1
+278,M7134,Autres kystes des bourses séreuses - Main,kyste arthrosynovial de la main droite,0.729972,0.5634,>.55,1,1,1,3,1
+279,M7667,Tendinite du tendon d'Achille - Cheville et pied,tendinopathie achilléenne chronique résistante au traitement médical,0.656346,0.5796,>.55,1,1,1,3,1
+280,N288,Autres affections précisées du rein et de l'uretère,dilatation urétérale idiopathique droite,0.341872,0.6005,>.55,1,1,1,3,1
+281,N363,Prolapsus de la muqueuse urétrale,prolapsus muqueux urétral symptomatique,0.842112,0.6111,>.55,1,1,1,3,1
+282,N430,Hydrocèle enkystée,hydrocèle enkystée du testicule droit,0.660243,0.6449,>.55,1,1,1,3,1
+283,N44,Torsion du testicule,torsion du cordon spermatique gauche sur 360 degrés,0.45217,0.6174,>.55,1,1,1,3,1
+284,N806,Endométriose sur cicatrice cutanée,endométriose sur cicatrice cutanée abdominale,0.87864,0.621,>.55,1,1,1,3,1
+285,Q530,Testicule en situation anormale,ectopie testiculaire gauche congénitale,0.515301,0.564,>.55,1,1,1,3,1
+286,Q531,Cryptorchidie unilatérale,cryptorchidie unilatérale droite non descendue,0.911939,0.6728,>.55,1,1,1,3,1
+287,Q556,Autres malformations congénitales du pénis,malformation congénitale du pénis,0.941355,0.5961,>.55,1,1,1,3,1
+288,Q690,Doigt(s) surnuméraire(s),doigt surnuméraire au niveau de la main droite,0.810218,0.5792,>.55,1,1,1,3,1
+289,S312,Plaie ouverte du pénis,plaie du pénis suite à un traumatisme local,0.857911,0.5543,>.55,1,1,1,3,1
+290,S5251,Fracture ouverte de l'extrémité inférieure du radius,fracture ouverte de l'extrémité inférieure du radius droit,0.968249,0.5996,>.55,1,1,1,3,1
+291,S610,Plaie ouverte de(s) doigt(s) (sans lésion de l'ongle),plaie ouverte du majeur droit,0.43931,0.595,>.55,1,1,1,3,1
+292,S610,Plaie ouverte de(s) doigt(s) (sans lésion de l'ongle),plaie ouverte du majeur droit,0.43931,0.5771,>.55,1,1,1,3,1
+293,S611,Plaie ouverte de(s) doigt(s) avec lésion de l'ongle,plaie complexe du troisième doigt de la main droite,0.46039,0.5799,>.55,1,1,1,3,1
+294,S618,Plaie ouverte d'autres parties du poignet et de la main,plaie infectée de la face antérieure du poignet gauche,0.561487,0.5528,>.55,1,1,1,3,1
+295,S6261,Fracture ouverte d'un autre doigt,fracture ouverte de l’annulaire droit,0.561495,0.5862,>.55,1,1,1,3,1
+296,S631,Luxation du doigt,luxation du pouce droit suite à un traumatisme sportif,0.451388,0.5615,>.55,1,1,1,3,1
+297,S681,Amputation traumatique d'un autre doigt (complète) (partielle),amputation traumatique d'un doigt de la main droite,0.794167,0.569,>.55,1,1,1,3,1
+298,S8260,Fracture fermée de la malléole externe,fracture fermée de la malléole externe droite,0.970178,0.6338,>.55,1,1,1,3,1
+299,S8280,Fractures fermées d'autres parties de la jambe,fracture fermée bimalléolaire de la jambe droite,0.72302,0.5895,>.55,1,1,1,3,1

@@ -1,0 +1,439 @@
+span_id,code,definition,libelle,cos_rr_ln,gliner_score,bin,vote_opus,vote_fable_v2,vote_fable_v3,n_yes,label
+0,N488,autres affections precisees de la verge,Badigeonnage et champage stérile,0.067174,0.0522,<.08,0,0,0,0,0
+1,E6605,obesite due a un exces calorique de l'adulte avec indice de masse corporelle [imc] egal ou superieur a 35 kg/m2 et inferieur a 40 kg/m2,alimentation maîtrisée et une activité physique quotidienne (marche,0.161008,0.0681,<.08,0,0,0,0,0
+2,K409,"hernie inguinale, (unilaterale ou) sans precision(, sans occlusion ni gangrene)",matériel prothétique définitif en position pré-péritonéale (TAPP,0.066192,0.0514,<.08,0,0,0,0,0
+3,N23,"colique nephretique, sans precision",pas de syndrome inflammatoire biologique,0.216575,0.0795,<.08,0,0,0,0,0
+4,C241,tumeur maligne de l'ampoule de vater,collection le 28/01/2023,0.016077,0.0552,<.08,0,0,0,0,0
+5,N111,pyelonephrite obstructive (chronique),douleurs lombaires droites,0.127575,0.0518,<.08,0,0,0,0,0
+6,K432,"eventration post-operatoire, sans occlusion ni gangrene",hématome,0.188291,0.0584,<.08,0,0,0,0,0
+7,S460,lesion traumatique des muscle(s) et tendon(s) de la coiffe des rotateurs de l'epaule,ablation des fils à J+15,-0.004147,0.0645,<.08,0,0,0,0,0
+8,N133,"hydronephroses, autres et sans precision",ECBU pyélique revient positif à E Coli,0.045667,0.073,<.08,0,0,0,0,0
+9,K432,"eventration post-operatoire, sans occlusion ni gangrene","non réductible, associée à des vomissements",-0.008452,0.0682,<.08,0,0,0,0,0
+10,N359,"retrecissement uretral, sans precision","allergies
+
+-   HTA
+
+-   HBP traitée par RTUP",-0.000949,0.0777,<.08,0,0,0,0,0
+11,N40,hyperplasie de la prostate,infection urinaire,0.001469,0.0652,<.08,0,0,0,0,0
+12,M171,autres gonarthroses primaires,tibia taille 4,0.195596,0.0778,<.08,0,0,0,0,0
+13,K800,calcul de la vesicule biliaire avec cholecystite aigue,"canal cystique de part et d'autre avec sa
+
+section",0.193191,0.0723,<.08,0,0,0,0,0
+14,M170,"gonarthrose primaire, bilaterale",flexion atteignant à peine les 90°,0.156543,0.0542,<.08,0,0,0,0,0
+15,S3200,fracture fermee d'une vertebre lombaire,chute de hauteur de 2 mètres,0.140261,0.0595,<.08,0,0,0,0,0
+16,K800,calcul de la vesicule biliaire avec cholecystite aigue,Obésité modérée,-0.036009,0.0647,<.08,0,0,0,0,0
+17,N132,hydronephrose avec obstruction calculeuse renale et ureterale,uretère pelvien droit obstructif,0.308812,0.063,<.08,1,0,0,1,0
+18,M205,autres deformations d'(es) orteil(s),os de qualité correcte,0.074652,0.0504,<.08,0,0,0,0,0
+19,M511,atteintes d'un disque lombaire et d'autres disques intervertebraux avec radiculopathie,arc postérieur et repérage de la jonction interlamellaire,0.069348,0.0595,<.08,0,0,0,0,0
+20,M518,autres atteintes precisees d'un disque intervertebral,cicatrice est restée propre et sèche sans signe inflammatoire,0.039023,0.0633,<.08,0,0,0,0,0
+21,M201,hallux valgus (acquis),plus ou moins embrochage du deuxième rayon,0.049676,0.0643,<.08,0,0,0,0,0
+22,M170,"gonarthrose primaire, bilaterale","contact os
+
+sur os",-0.05873,0.0625,<.08,0,0,0,0,0
+23,K353,appendicite aigue avec peritonite localisee,intolérance alimentaire,0.003923,0.0722,<.08,0,0,0,0,0
+24,M2116,"deformation en varus, non classee ailleurs - genou",boiterie du côté droit sans aides techniques,0.066889,0.069,<.08,0,0,0,0,0
+25,N135,"coudure et retrecissement ureteral, sans hydronephrose",pyélon sous contrôle scopique,0.256361,0.0697,<.08,0,0,0,0,0
+26,C672,tumeur maligne de la paroi laterale de la vessie,urines s'éclaircissent progressivement,0.051636,0.0708,<.08,0,0,0,0,0
+27,C187,tumeur maligne du colon sigmoide,métastases hépatiques,0.015063,0.0784,<.08,0,0,0,0,0
+28,K565,"adherences de l'intestin (brides), avec occlusion",hypertendue à 165/85mmHg,-0.076318,0.0674,<.08,0,0,0,0,0
+29,N201,calcul de l'uretere,insuffisance rénale,0.017047,0.0534,<.08,0,0,0,0,0
+30,Z452,ajustement et entretien d'un dispositif d'acces vasculaire,Impression de la photo,-0.040901,0.0572,<.08,0,0,0,0,0
+31,K811,cholecystite chronique,É,0.04807,0.0522,<.08,0,0,0,0,0
+32,C180,tumeur maligne du caecum,leucocytes 6.6 G/L,0.062946,0.053,<.08,0,0,0,0,0
+33,M518,autres atteintes precisees d'un disque intervertebral,pansement stérile occlusif est posé,0.106181,0.0675,<.08,0,0,0,0,0
+34,M171,autres gonarthroses primaires,résistante aux traitements conservateurs,0.121988,0.0592,<.08,0,0,0,0,0
+35,K602,"fissure anale, sans precision",excision de la fissure avec anoplastie muqueuse,0.21402,0.075,<.08,1,1,1,3,1
+36,N111,pyelonephrite obstructive (chronique),ECBU est positif à E Coli,0.160537,0.0529,<.08,0,0,0,0,0
+37,Z452,ajustement et entretien d'un dispositif d'acces vasculaire,antibiothérapie post-opératoire,-0.004037,0.0569,<.08,0,0,0,0,0
+38,M201,hallux valgus (acquis),sésamoïdes,0.066476,0.0758,<.08,0,0,0,0,0
+39,K800,calcul de la vesicule biliaire avec cholecystite aigue,"lésion biliaire, hémorragie, infection",0.170549,0.0532,<.08,0,0,0,0,0
+40,C61,tumeur maligne de la prostate,col vésical,-0.086736,0.0541,<.08,0,0,0,0,0
+41,C795,tumeur maligne secondaire des os et de la moelle osseuse,moelle apparaît décomprimée sans signes de compression résiduelle,0.206233,0.0784,<.08,0,0,0,0,0
+42,K642,hemorroides du troisieme degre,douleur persistante > 5/10,0.000649,0.0685,<.08,0,0,0,0,0
+43,M511,atteintes d'un disque lombaire et d'autres disques intervertebraux avec radiculopathie,Douleurs soulagées par antalgiques usuels,-0.075993,0.0711,<.08,0,0,0,0,0
+44,N131,"hydronephrose avec retrecissement ureteral, non classee ailleurs",adénopathies ont diminué de taille mais sont toujours présentes,-0.010862,0.061,<.08,0,0,0,0,0
+45,N201,calcul de l'uretere,Urétéroscopie,0.43792,0.0565,<.08,0,0,0,0,0
+46,C64,"tumeur maligne du rein, a l'exception du bassinet",syndrome génétique,-0.077072,0.0715,<.08,0,0,0,0,0
+47,M171,autres gonarthroses primaires,douleurs de l'estomac,0.00661,0.0614,<.08,0,0,0,0,0
+48,K802,calcul de la vesicule biliaire (sans cholecystite),sans signes d'inflammation locale,0.060344,0.0581,<.08,0,0,0,0,0
+49,K430,"eventration post-operatoire, avec occlusion sans gangrene",sac d'éventration,0.297966,0.0679,<.08,0,1,1,2,1
+50,M160,"coxarthrose primaire, bilaterale",paracétamol 1 g x4/j et tramadol ponctuel,-0.002795,0.0722,<.08,0,0,0,0,0
+51,K810,cholecystite aigue,allergique au PARACETAMOL,0.060694,0.0523,<.08,0,0,0,0,0
+52,N47,"hypertrophie du prepuce, phimosis et paraphimosis",posthectomie Je lui explique les modalités ainsi que les risques,0.02436,0.0787,<.08,0,0,0,0,0
+53,C786,tumeur maligne secondaire du retroperitoine et du peritoine,Coelioscopie exploratrice,0.166547,0.0514,<.08,0,0,0,0,0
+54,K800,calcul de la vesicule biliaire avec cholecystite aigue,bilistase et d'une bonne hémostase,0.22867,0.0796,<.08,0,0,0,0,0
+55,M512,hernie d'un autre disque intervertebral precise,lames vertébrales,0.293552,0.0792,<.08,0,0,0,0,0
+56,S663,lesion traumatique du muscle et du tendon extenseurs d'un autre doigt au niveau du poignet et de la main,articulation MCP G3,-0.03518,0.0562,<.08,0,0,0,0,0
+57,K802,calcul de la vesicule biliaire (sans cholecystite),"Amlor 5mg
+
+Metformine 1000mg",-0.054056,0.0665,<.08,0,0,0,0,0
+58,C786,tumeur maligne secondaire du retroperitoine et du peritoine,n'est pas analysable par abord radiologique,0.096371,0.0549,<.08,0,0,0,0,0
+59,N200,calcul du rein,ECBU préopératoire négatif,-0.023275,0.0718,<.08,0,0,0,0,0
+60,N200,calcul du rein,Apyrexie obtenue à J3,-0.121343,0.0701,<.08,0,0,0,0,0
+61,K409,"hernie inguinale, (unilaterale ou) sans precision(, sans occlusion ni gangrene)",Vicryl 2.0,-0.048448,0.0536,<.08,0,0,0,0,0
+62,K358,"appendicites aigues, autres et non precisees",reste de l'abdomen sans particularité,0.143463,0.065,<.08,0,0,0,0,0
+63,N132,hydronephrose avec obstruction calculeuse renale et ureterale,fragment résiduel de gros calibre,-0.024718,0.0584,<.08,0,0,0,0,0
+64,C184,tumeur maligne du colon transverse,VVP,-0.02296,0.0621,<.08,0,0,0,0,0
+65,N133,"hydronephroses, autres et sans precision",hypotension,0.207115,0.0597,<.08,0,0,0,0,0
+66,K430,"eventration post-operatoire, avec occlusion sans gangrene",déroulement du reste du grêle,0.10359,0.0553,<.08,0,0,0,0,0
+67,K565,"adherences de l'intestin (brides), avec occlusion",créatinine à 134 µmol/L,-0.021308,0.0767,<.08,0,0,0,0,0
+68,M512,hernie d'un autre disque intervertebral precise,rachis lombaire bas vers la fesse gauche,-0.032166,0.0662,<.08,0,0,0,0,0
+69,C65,tumeur maligne du bassinet,anomalie vésicale,0.117231,0.063,<.08,0,0,0,0,0
+70,S661,lesion traumatique du muscle et du tendon flechisseurs d'un autre doigt au niveau du poignet et de la main,revascularisation du troisième doigt,0.376283,0.0562,<.08,0,0,0,0,0
+71,E6606,obesite due a un exces calorique de l'adulte avec indice de masse corporelle [imc] egal ou superieur a 40 kg/m2 et inferieur a 50 kg/m2,HP,0.061824,0.0526,<.08,0,0,0,0,0
+72,M201,hallux valgus (acquis),mobilités métatarsophalangiennes rest,-0.072458,0.0543,<.08,0,0,0,0,0
+73,K801,calcul de la vesicule biliaire avec une autre forme de cholecystite,"grêle, de l'épiploon, du transverse",-0.055961,0.0535,<.08,0,0,0,0,0
+74,C65,tumeur maligne du bassinet,hématurie et de douleurs lombaires,0.065705,0.0776,<.08,0,0,0,0,0
+75,M511,atteintes d'un disque lombaire et d'autres disques intervertebraux avec radiculopathie,aminal gauche,-0.043936,0.0622,<.08,0,0,0,0,0
+76,K642,hemorroides du troisieme degre,Appendicectomie dans l'enfance,-0.123196,0.0697,<.08,0,0,0,0,0
+77,K800,calcul de la vesicule biliaire avec cholecystite aigue,vésicule de son lit vésiculaire,0.115593,0.0663,<.08,0,0,0,0,0
+78,N200,calcul du rein,urétéro-rénoscopie rétrograde,0.192331,0.0513,<.08,0,0,0,0,0
+79,C66,tumeur maligne de l'uretere,créatininémie) à réaliser avant la consultation,0.114487,0.0541,<.08,0,0,0,0,0
+80,E6606,obesite due a un exces calorique de l'adulte avec indice de masse corporelle [imc] egal ou superieur a 40 kg/m2 et inferieur a 50 kg/m2,Reflux gastro-oesophag,-0.056782,0.0859,.08-.16,0,0,0,0,0
+81,E6606,obesite due a un exces calorique de l'adulte avec indice de masse corporelle [imc] egal ou superieur a 40 kg/m2 et inferieur a 50 kg/m2,"gastrite, pas d'Helicobacter pylori",0.058132,0.0803,.08-.16,0,0,0,0,0
+82,M511,atteintes d'un disque lombaire et d'autres disques intervertebraux avec radiculopathie,test de Lasègue positif à gauche à 50°,-0.014709,0.1013,.08-.16,0,0,0,0,0
+83,K800,calcul de la vesicule biliaire avec cholecystite aigue,sans signe d'angiocholite,0.026036,0.1006,.08-.16,0,0,0,0,0
+84,N132,hydronephrose avec obstruction calculeuse renale et ureterale,dilatation des cavités pyélocalicielles d'amont,0.333972,0.1155,.08-.16,1,1,1,3,1
+85,C65,tumeur maligne du bassinet,néphro urétérectomie totale droite,0.117971,0.0836,.08-.16,0,0,0,0,0
+86,M160,"coxarthrose primaire, bilaterale",arthroplastie totale de la hanche droite,0.206449,0.0907,.08-.16,0,0,0,0,0
+87,Z452,ajustement et entretien d'un dispositif d'acces vasculaire,Désinfection cutanée,-0.009623,0.0904,.08-.16,0,0,0,0,0
+88,E6606,obesite due a un exces calorique de l'adulte avec indice de masse corporelle [imc] egal ou superieur a 40 kg/m2 et inferieur a 50 kg/m2,sleeve gastrectomie,0.0344,0.1121,.08-.16,0,0,0,0,0
+89,M511,atteintes d'un disque lombaire et d'autres disques intervertebraux avec radiculopathie,"lésion nerveuse, brèche dure-mérienne, infection, récidive, hématome",0.153821,0.0899,.08-.16,0,0,0,0,0
+90,C180,tumeur maligne du caecum,syndrome infectieux fébrile,0.024081,0.0966,.08-.16,0,0,0,0,0
+91,M2116,"deformation en varus, non classee ailleurs - genou",symptomatique et résistante au traitement médical bien conduit,0.044273,0.1183,.08-.16,0,0,0,0,0
+92,M751,syndrome de la coiffe des rotateurs,Douleurs à la palpation de la gouttière bicipitale,0.149523,0.0976,.08-.16,0,0,0,0,0
+93,K400,"hernie inguinale bilaterale, avec occlusion, sans gangrene",hernie devant une réparation dans des conditions non optimales,0.249663,0.0951,.08-.16,0,0,0,0,0
+94,M511,atteintes d'un disque lombaire et d'autres disques intervertebraux avec radiculopathie,symptomatologie invalidante mal,0.013132,0.0826,.08-.16,0,0,0,0,0
+95,M4806,retrecissement du canal medullaire - region lombaire,claudication neurogène,0.018714,0.1169,.08-.16,0,0,0,0,0
+96,N136,pyonephrose,hyperleucocytose à 18 G/L,0.023681,0.1071,.08-.16,0,0,0,0,0
+97,K429,"hernie ombilicale, (sans occlusion ni gangrene)",Cure de hernie ombilicale,0.599996,0.1423,.08-.16,1,1,1,3,1
+98,S5250,fracture fermee de l'extremite inferieure du radius,mobilisation précoce des doigts et coude,-0.065883,0.1347,.08-.16,0,0,0,0,0
+99,M501,atteinte d'un disque cervical avec radiculopathie,pince pouce-index à droite,0.025659,0.108,.08-.16,0,0,0,0,0
+100,M501,atteinte d'un disque cervical avec radiculopathie,déficit sensitivo moteur des membres inférieurs,-0.037121,0.1269,.08-.16,0,0,0,0,0
+101,M175,autres gonarthroses secondaires,Prothèse totale inversée d'épaule à droite,0.029443,0.1029,.08-.16,0,0,0,0,0
+102,N200,calcul du rein,pollakiurie et urgenturies,0.05887,0.1137,.08-.16,0,0,0,0,0
+103,C20,tumeur maligne du rectum,arrêt partiel du transit associé à des rectorragies,0.425237,0.1595,.08-.16,0,0,0,0,0
+104,K353,appendicite aigue avec peritonite localisee,"appendice est augmenté de volume, inflammatoire",0.316426,0.1174,.08-.16,1,1,1,3,1
+105,N136,pyonephrose,douleur lombaire droite fébrile,0.173714,0.1029,.08-.16,0,0,0,0,0
+106,N132,hydronephrose avec obstruction calculeuse renale et ureterale,plaie de l'uretère,0.057499,0.092,.08-.16,0,0,0,0,0
+107,K413,"hernie crurale, (unilaterale ou) sans precision, avec occlusion, sans gangrene","allure crurale, douloureuse et irréductible",0.385594,0.0805,.08-.16,1,0,0,1,0
+108,M170,"gonarthrose primaire, bilaterale",prothèse totale de genou gauche semble raisonnable,0.19886,0.0977,.08-.16,0,0,0,0,0
+109,S2200,fracture fermee d'une vertebre dorsale,douleur vive et localisée à la palpation des apophyses épineuses dorsales,0.149735,0.0939,.08-.16,0,0,0,0,0
+110,N200,calcul du rein,Opacification retrouvant des cavités pyélo-calicielles dilatées,0.122587,0.1319,.08-.16,0,0,0,0,0
+111,E6605,obesite due a un exces calorique de l'adulte avec indice de masse corporelle [imc] egal ou superieur a 35 kg/m2 et inferieur a 40 kg/m2,fatigabilité augmentée,0.038534,0.1408,.08-.16,0,0,0,0,0
+112,K802,calcul de la vesicule biliaire (sans cholecystite),hypochondre droit en post prandial,-0.047504,0.1026,.08-.16,0,0,0,0,0
+113,N133,"hydronephroses, autres et sans precision",Créatininémie de,0.209155,0.0827,.08-.16,0,0,0,0,0
+114,M511,atteintes d'un disque lombaire et d'autres disques intervertebraux avec radiculopathie,recalibrage unilatéral gauche L4-L5,0.183399,0.103,.08-.16,0,0,0,0,0
+115,N200,calcul du rein,sonde double J Ch 7 / 26 cm,0.027282,0.1136,.08-.16,0,0,0,0,0
+116,K602,"fissure anale, sans precision",fissure anale avec anoplastie muqueuse réalisée sous anesthésie générale,0.368854,0.1511,.08-.16,1,1,1,3,1
+117,N40,hyperplasie de la prostate,anomalie intra-vésicale,-0.087901,0.0872,.08-.16,0,0,0,0,0
+118,M175,autres gonarthroses secondaires,prothèse totale de genou,0.261169,0.1029,.08-.16,0,0,0,0,0
+119,K818,autres cholecystites,vésicule dans un sac largable,0.354846,0.0912,.08-.16,0,0,0,0,0
+120,K800,calcul de la vesicule biliaire avec cholecystite aigue,HUMALOG sous cutanée 2-2-0 UI,-0.086887,0.1332,.08-.16,0,0,0,0,0
+121,K805,calcul des canaux biliaires (sans angiocholite ni cholecystite),Cholangio IRM,0.194151,0.1454,.08-.16,0,0,0,0,0
+122,K800,calcul de la vesicule biliaire avec cholecystite aigue,"Leucocytes 7,8 G/L",0.132355,0.1373,.08-.16,0,0,0,0,0
+123,C20,tumeur maligne du rectum,Echec de désondage post-opératoire motiv,-0.065924,0.0945,.08-.16,0,0,0,0,0
+124,S3200,fracture fermee d'une vertebre lombaire,lombalgie aiguë sur,0.204285,0.1058,.08-.16,0,0,0,0,0
+125,C250,tumeur maligne de la tete du pancreas,tranche de voie biliaire,-0.091896,0.1058,.08-.16,0,0,0,0,0
+126,N200,calcul du rein,infection urinaire fébrile,0.122168,0.103,.08-.16,0,0,0,0,0
+127,N130,hydronephrose avec obstruction de la jonction pyelo-ureterale,JJ mal tolérée,0.025009,0.1166,.08-.16,0,0,0,0,0
+128,M511,atteintes d'un disque lombaire et d'autres disques intervertebraux avec radiculopathie,CLE unilatéral L2L3 gauche Schizas D,0.159616,0.1314,.08-.16,0,0,0,0,0
+129,K402,"hernie inguinale bilaterale, (sans occlusion ni gangrene)",aponévrose du muscle oblique externe,0.169167,0.1203,.08-.16,0,0,0,0,0
+130,N200,calcul du rein,"Proteus mirabilis, traitement par amoxicilline",-0.008045,0.1566,.08-.16,0,0,0,0,0
+131,K804,calcul des canaux biliaires avec cholecystite,calculs seront récupérer et mis dans un endobag,0.238975,0.1453,.08-.16,0,0,0,0,0
+132,M751,syndrome de la coiffe des rotateurs,"Allergies Pas d'allergie médicamenteuse, ni alimentaire",-0.045665,0.1039,.08-.16,0,0,0,0,0
+133,M171,autres gonarthroses primaires,HANCHE GAUCHE,0.113112,0.1169,.08-.16,0,0,0,0,0
+134,N201,calcul de l'uretere,Apyrexie au cours de l'hospitalisation,-0.060592,0.1098,.08-.16,0,0,0,0,0
+135,K565,"adherences de l'intestin (brides), avec occlusion","DPC
+
+-   RGO occasionnel",-0.033951,0.1053,.08-.16,0,0,0,0,0
+136,S610,plaie ouverte de(s) doigt(s) (sans lesion de l'ongle),syndrome douloureux régional complexe,-0.004603,0.1286,.08-.16,0,0,0,0,0
+137,K409,"hernie inguinale, (unilaterale ou) sans precision(, sans occlusion ni gangrene)",lipome pré herniaire,0.024827,0.1284,.08-.16,0,0,0,0,0
+138,N111,pyelonephrite obstructive (chronique),"fièvre à 38,7°C à J1, persistante",0.111605,0.0917,.08-.16,0,0,0,0,0
+139,N328,autres affections precisees de la vessie,apyrétique non algique,0.024093,0.1505,.08-.16,0,0,0,0,0
+140,N201,calcul de l'uretere,insuffisance rénale aiguë avec créatininémie à 150 µmol/L,0.11801,0.0831,.08-.16,0,0,0,0,0
+141,M169,"coxarthrose, sans precision",cicatrisation complète,0.075285,0.1043,.08-.16,0,0,0,0,0
+142,C678,tumeur maligne a localisations contigues de la vessie,anse iléale,-0.002871,0.0857,.08-.16,0,0,0,0,0
+143,S5250,fracture fermee de l'extremite inferieure du radius,Fracture transversale simple extra-articul,0.218145,0.1137,.08-.16,0,0,0,0,0
+144,S6200,fracture fermee de l'os scaphoide de la main,légère impotence fonctionnelle du poignet droit,-0.059771,0.1169,.08-.16,0,0,0,0,0
+145,C182,tumeur maligne du colon ascendant,"étendue sur environ 4 cm de hauteur, sans autre lésion",0.010536,0.104,.08-.16,0,0,0,0,0
+146,K602,"fissure anale, sans precision",lésion de Crohn,-0.089421,0.099,.08-.16,0,0,0,0,0
+147,C678,tumeur maligne a localisations contigues de la vessie,Contact étroit avec les méats urétéraux,0.067336,0.136,.08-.16,0,0,0,0,0
+148,K801,calcul de la vesicule biliaire avec une autre forme de cholecystite,région vésiculaire,0.205735,0.0835,.08-.16,0,0,0,0,0
+149,K801,calcul de la vesicule biliaire avec une autre forme de cholecystite,péritonite appendiculaire,0.060975,0.1561,.08-.16,0,0,0,0,0
+150,M6534,"doigt ""a ressort"" - main",PTH droite,0.234065,0.0976,.08-.16,0,0,0,0,0
+151,N111,pyelonephrite obstructive (chronique),"lithiase de l'uretère lombaire droit
+
+Antécédent",0.185495,0.1593,.08-.16,0,0,0,0,0
+152,M201,hallux valgus (acquis),bursite inflammatoire,0.11247,0.1589,.08-.16,0,0,0,0,0
+153,M4806,retrecissement du canal medullaire - region lombaire,syndrome de la queue de cheval,0.01332,0.1425,.08-.16,0,0,0,0,0
+154,S6200,fracture fermee de l'os scaphoide de la main,incidence de Schneck centrée sur le scaphoïde droit,0.292871,0.099,.08-.16,0,0,0,0,0
+155,C20,tumeur maligne du rectum,pertes peropératoires,-0.089967,0.0986,.08-.16,0,0,0,0,0
+156,K439,"hernie de la paroi abdominale anterieure autre et non precisee, sans occlusion ni gangrene",intoxication alcoolo-tabagique,-0.038759,0.0806,.08-.16,0,0,0,0,0
+157,C672,tumeur maligne de la paroi laterale de la vessie,diagnostiquée en 2015,-0.086165,0.1036,.08-.16,0,0,0,0,0
+158,C20,tumeur maligne du rectum,dénutrition corrigée,-0.019105,0.0918,.08-.16,0,0,0,0,0
+159,K403,"hernie inguinale, (unilaterale ou) sans precision, avec occlusion, sans gangrene",fibrillation atriale sous XARELTO,0.013219,0.1248,.08-.16,0,0,0,0,0
+160,C678,tumeur maligne a localisations contigues de la vessie,polypes centimétriques au niveau du bas fond vésical,0.414137,0.2846,.16-.30,0,0,0,0,0
+161,K353,appendicite aigue avec peritonite localisee,CRP à 200mg/l,0.034569,0.1826,.16-.30,0,0,0,0,0
+162,N111,pyelonephrite obstructive (chronique),abcès rénal droit de 1 cm,0.119126,0.2727,.16-.30,0,0,0,0,0
+163,C20,tumeur maligne du rectum,BPCO post-tabagique,-0.076096,0.2439,.16-.30,0,0,0,0,0
+164,E6606,obesite due a un exces calorique de l'adulte avec indice de masse corporelle [imc] egal ou superieur a 40 kg/m2 et inferieur a 50 kg/m2,retentissement métabolique et respiratoire,-0.045291,0.1649,.16-.30,0,0,0,0,0
+165,M201,hallux valgus (acquis),avant-pied gauche,0.280106,0.1907,.16-.30,0,0,0,0,0
+166,K402,"hernie inguinale bilaterale, (sans occlusion ni gangrene)",gêne fonctionnelle plus importante à droite,0.043268,0.2681,.16-.30,0,0,0,0,0
+167,C786,tumeur maligne secondaire du retroperitoine et du peritoine,iléus avec vomissements,0.087647,0.1935,.16-.30,0,0,0,0,0
+168,M171,autres gonarthroses primaires,"raccourcissement de 0,5 cm du membre inférieur gauche",-0.0511,0.1842,.16-.30,0,0,0,0,0
+169,K432,"eventration post-operatoire, sans occlusion ni gangrene",Cicatrices propres,0.263162,0.2275,.16-.30,0,0,0,0,0
+170,N304,cystite due a une irradiation,hématuries totales,0.025705,0.2788,.16-.30,0,0,0,0,0
+171,M171,autres gonarthroses primaires,"Gonarthrose tricompartimentale droite
+
+Intervention : Arthroplastie totale du genou droit",0.405743,0.208,.16-.30,1,1,1,3,1
+172,K642,hemorroides du troisieme degre,"point d'ancrage rectal au sommet du paquet
+
+hémorroïdaire",0.339355,0.1822,.16-.30,1,1,1,3,1
+173,K802,calcul de la vesicule biliaire (sans cholecystite),Cholécystectomie par coelioscopie pour cholécystite aigüe refroidie,0.08744,0.237,.16-.30,0,0,0,0,0
+174,S8280,fractures fermees d'autres parties de la jambe,ostéosynthèse du pilon tibial à droite par plaque antéro-latérale et médiale associ,0.173875,0.2247,.16-.30,0,1,1,2,1
+175,C61,tumeur maligne de la prostate,Prostatectomie radicale sous coelioscopie,0.257867,0.2985,.16-.30,0,1,1,2,1
+176,M501,atteinte d'un disque cervical avec radiculopathie,topographie C7,0.223323,0.1862,.16-.30,0,0,0,0,0
+177,S661,lesion traumatique du muscle et du tendon flechisseurs d'un autre doigt au niveau du poignet et de la main,absence de sensibilité du bout du doigt 3ème doigt,0.33675,0.2107,.16-.30,0,0,0,0,0
+178,N136,pyonephrose,Cancer de colon traité par colectomie droite en 2023,0.022649,0.1657,.16-.30,0,0,0,0,0
+179,K565,"adherences de l'intestin (brides), avec occlusion","bride
+
+-   avec zone de transition médio-grêlique",0.25825,0.2841,.16-.30,1,1,1,3,1
+180,K358,"appendicites aigues, autres et non precisees",moignon appendiculaire sans enfouir,0.214316,0.1649,.16-.30,0,0,0,0,0
+181,C679,"tumeur maligne de la vessie, sans precision",lésions sont suspectes de tumeur,0.149049,0.2598,.16-.30,0,0,0,0,0
+182,C786,tumeur maligne secondaire du retroperitoine et du peritoine,embolie pulmonaire,0.052873,0.1852,.16-.30,0,0,0,0,0
+183,K802,calcul de la vesicule biliaire (sans cholecystite),Indication à une cholécystectomie par coleioscopie,0.229551,0.1829,.16-.30,0,0,0,0,0
+184,N304,cystite due a une irradiation,télangiectasies à l'anse bipolaire,-0.085042,0.1991,.16-.30,0,0,0,0,0
+185,N200,calcul du rein,"Lithiases urétérale et rénale droite
+
+Antécédent",0.323911,0.2212,.16-.30,1,1,1,3,1
+186,K353,appendicite aigue avec peritonite localisee,"allergies
+
+- Colopathie fonctionnelle sur mégacolon
+
+Allergie : pollen",0.057072,0.167,.16-.30,0,0,0,0,0
+187,N40,hyperplasie de la prostate,IRA obstructive récente sur son globe,-0.014777,0.2021,.16-.30,0,0,0,0,0
+188,N132,hydronephrose avec obstruction calculeuse renale et ureterale,Colique néphrétique compliquée d'insuffisance rénale aiguë,0.299393,0.1683,.16-.30,0,0,0,0,0
+189,C180,tumeur maligne du caecum,métastases pulmonaires,0.072621,0.2312,.16-.30,0,0,0,0,0
+190,S835,entorse et foulure des ligaments croises du genou (anterieur) (posterieur),traumatisme au niveau du genou gauche avec un craquement ressenti,0.367289,0.2822,.16-.30,0,0,0,0,0
+191,K409,"hernie inguinale, (unilaterale ou) sans precision(, sans occlusion ni gangrene)",cancer du sein chez la soeur,-0.072407,0.2852,.16-.30,0,0,0,0,0
+192,C250,tumeur maligne de la tete du pancreas,cholestase importante et une cytolyse modérée,0.009626,0.2092,.16-.30,0,0,0,0,0
+193,K358,"appendicites aigues, autres et non precisees",douleur spontanée en fosse iliaque droite,0.107694,0.1808,.16-.30,0,0,0,0,0
+194,K804,calcul des canaux biliaires avec cholecystite,vésicule biliaire,0.203602,0.2205,.16-.30,0,0,0,0,0
+195,K800,calcul de la vesicule biliaire avec cholecystite aigue,cholécystite,0.269568,0.1894,.16-.30,1,1,1,3,1
+196,K801,calcul de la vesicule biliaire avec une autre forme de cholecystite,"cholécystectomie coelioscopique
+
+Antécédents médicaux, chirurgicaux, familiaux, allergies",0.180983,0.2078,.16-.30,0,0,0,0,0
+197,C20,tumeur maligne du rectum,métastases hépatiques synchrones,0.003223,0.2805,.16-.30,0,0,0,0,0
+198,N200,calcul du rein,cystites à répétitions,0.114811,0.261,.16-.30,0,0,0,0,0
+199,K432,"eventration post-operatoire, sans occlusion ni gangrene",douleurs abdominales quasi persistantes avec et sans effort,0.000748,0.2206,.16-.30,0,0,0,0,0
+200,K800,calcul de la vesicule biliaire avec cholecystite aigue,cholestase avec des gamma-GT à 3N sans cytolyse,0.111938,0.1662,.16-.30,0,0,0,0,0
+201,K802,calcul de la vesicule biliaire (sans cholecystite),Vésicule biliaire souple non distendue,0.472759,0.2489,.16-.30,0,0,0,0,0
+202,N308,autres cystites,plaie de vessie,0.234327,0.2232,.16-.30,0,0,0,0,0
+203,C180,tumeur maligne du caecum,collection abcédée associée,0.140958,0.2475,.16-.30,0,0,0,0,0
+204,K805,calcul des canaux biliaires (sans angiocholite ni cholecystite),"voie biliaire
+
+principale",0.344473,0.1972,.16-.30,0,0,0,0,0
+205,K805,calcul des canaux biliaires (sans angiocholite ni cholecystite),cholécystite ni angiocholite,0.480821,0.1884,.16-.30,0,0,0,0,0
+206,D414,tumeur a evolution imprevisible ou inconnue de la vessie,ECBU préopératoire stérile,0.112442,0.2011,.16-.30,0,0,0,0,0
+207,N136,pyonephrose,Coliques néphrétiques en 2018 et 2020,0.395267,0.2222,.16-.30,0,0,0,0,0
+208,C211,tumeur maligne du canal anal,boucle sigmoïdienne est repérée,0.003846,0.1657,.16-.30,0,0,0,0,0
+209,C672,tumeur maligne de la paroi laterale de la vessie,urines hématiques,0.030375,0.1853,.16-.30,0,0,0,0,0
+210,C66,tumeur maligne de l'uretere,multiples lésions polypoïdes de la face latérale gauche,-0.087489,0.1807,.16-.30,0,0,0,0,0
+211,C184,tumeur maligne du colon transverse,hyponatrémie à 129 durant l'épisode d'iléus,0.041708,0.1897,.16-.30,0,0,0,0,0
+212,M518,autres atteintes precisees d'un disque intervertebral,syndrome de la queue de cheval,0.010933,0.2525,.16-.30,0,0,0,0,0
+213,N130,hydronephrose avec obstruction de la jonction pyelo-ureterale,anastomose entre le bassinet et l'uretère,0.380533,0.2132,.16-.30,0,0,0,0,0
+214,C61,tumeur maligne de la prostate,cicatrice sus ombilicale à J3,-0.067264,0.1915,.16-.30,0,0,0,0,0
+215,M751,syndrome de la coiffe des rotateurs,Rupture transfixiante du tendon supra-épineux,0.404335,0.2736,.16-.30,1,1,1,3,1
+216,K413,"hernie crurale, (unilaterale ou) sans precision, avec occlusion, sans gangrene",hernie fémorale droite,0.441651,0.2239,.16-.30,1,1,1,3,1
+217,C676,tumeur maligne de l'orifice ureteral,Lésion polypoïde vésicale suspecte,0.126308,0.2342,.16-.30,0,0,0,0,0
+218,N328,autres affections precisees de la vessie,épisode de rétention aiguë d'urine,0.156306,0.2304,.16-.30,0,0,0,0,0
+219,C795,tumeur maligne secondaire des os et de la moelle osseuse,AC/FA sous ELIQUIS,-0.016703,0.2529,.16-.30,0,0,0,0,0
+220,C250,tumeur maligne de la tete du pancreas,Anastomose hépatico jéjunale termino latérale,-0.023431,0.2512,.16-.30,0,0,0,0,0
+221,M4726,autres spondylarthroses avec radiculopathie - region lombaire,CLE important dans cette région L5 S1 schizas D,0.182071,0.2654,.16-.30,0,0,0,0,0
+222,N202,calcul du rein avec calcul de l'uretere,compression extrinsèque de l'uretère gauche par nodule de carcinose,0.367913,0.2027,.16-.30,0,0,0,0,0
+223,N200,calcul du rein,lithiase peut être en cause dans ses infections urinaires,0.429333,0.1659,.16-.30,1,0,1,2,1
+224,M511,atteintes d'un disque lombaire et d'autres disques intervertebraux avec radiculopathie,conflictuelle avec la racine L5,0.316368,0.2138,.16-.30,0,0,0,0,0
+225,S2200,fracture fermee d'une vertebre dorsale,Fracture-tassement de D8 A4,0.616029,0.1732,.16-.30,1,1,1,3,1
+226,C795,tumeur maligne secondaire des os et de la moelle osseuse,carcinome urothélial causant une compression médullaire,0.091483,0.2778,.16-.30,0,1,1,2,1
+227,K818,autres cholecystites,Colique hépatique chronique avec vésicule multi-lithiasiques,0.256059,0.2972,.16-.30,0,0,0,0,0
+228,D291,tumeur benigne de la prostate,dysurie avec pollakiurie,-0.015725,0.1839,.16-.30,0,0,0,0,0
+229,K358,"appendicites aigues, autres et non precisees","Appendicite aiguë non compliquée
+
+Antécédent",0.438622,0.235,.16-.30,1,1,1,3,1
+230,C241,tumeur maligne de l'ampoule de vater,dilatation de la voie biliaire principale et des voies biliaires intrahépatiques,0.157335,0.2126,.16-.30,0,0,0,0,0
+231,C163,tumeur maligne de l'antre pylorique,dyslipidémie,-0.062151,0.2695,.16-.30,0,0,0,0,0
+232,M2116,"deformation en varus, non classee ailleurs - genou",Zohlen et Rabot positifs du genou droit,0.292661,0.2127,.16-.30,0,0,0,0,0
+233,N131,"hydronephrose avec retrecissement ureteral, non classee ailleurs",Dilatation pyélocalicielle droite,0.445966,0.2737,.16-.30,1,1,1,3,1
+234,M511,atteintes d'un disque lombaire et d'autres disques intervertebraux avec radiculopathie,volumineuse HDL L2-L3 gauche ascendante,0.037468,0.254,.16-.30,1,1,1,3,1
+235,N135,"coudure et retrecissement ureteral, sans hydronephrose",insuffisance rénale aiguë avec hyperkaliémie,-0.072117,0.1945,.16-.30,0,0,0,0,0
+236,N111,pyelonephrite obstructive (chronique),plaie de l'uretère,0.030882,0.1624,.16-.30,0,0,0,0,0
+237,N136,pyonephrose,lithiase de 9 mm du méat urétéral gauche,0.118123,0.2623,.16-.30,0,0,0,0,0
+238,N328,autres affections precisees de la vessie,anomalie du haut appareil urinaire,0.211341,0.1689,.16-.30,0,0,0,0,0
+239,N130,hydronephrose avec obstruction de la jonction pyelo-ureterale,dilatation de l'uretère d'aval,0.39722,0.1782,.16-.30,0,0,0,0,0
+240,N201,calcul de l'uretere,calcul pyelique gauche de 10 mm,0.474705,0.4817,.30-.55,0,0,0,0,0
+241,K811,cholecystite chronique,cholécystite chronique,1.0,0.5263,.30-.55,1,1,1,3,1
+242,N328,autres affections precisees de la vessie,polype du fond vésical,0.276244,0.4176,.30-.55,1,1,1,3,1
+243,M161,autres coxarthroses primaires,Coxalgie droite chronique évoluant depuis 7 ans,0.426434,0.4804,.30-.55,0,0,0,0,0
+244,E6605,obesite due a un exces calorique de l'adulte avec indice de masse corporelle [imc] egal ou superieur a 35 kg/m2 et inferieur a 40 kg/m2,hypothyroïdie sous LEVOTHYROX,0.028848,0.4176,.30-.55,0,0,0,0,0
+245,K801,calcul de la vesicule biliaire avec une autre forme de cholecystite,"cholécystite
+
+aiguë",0.367939,0.4617,.30-.55,0,1,0,1,0
+246,S860,lesion traumatique du tendon d'achille,Rupture intra-corporéale du tendon d'achille droit,0.733581,0.4085,.30-.55,1,1,1,3,1
+247,S8270,fractures fermees multiples de la jambe,"fracture tri malléolaire gauche, luxée, ouverte, cauchoix II",0.012738,0.506,.30-.55,0,0,0,0,0
+248,C182,tumeur maligne du colon ascendant,Colectomie droite oncologique avec anastomose iléocolique latérolatérale manuelle par voie coelio-assistée,0.30379,0.4756,.30-.55,0,1,1,2,1
+249,K804,calcul des canaux biliaires avec cholecystite,cholécystite avec épaississement de la paroi à 5mm,0.36547,0.3548,.30-.55,0,1,1,2,1
+250,S661,lesion traumatique du muscle et du tendon flechisseurs d'un autre doigt au niveau du poignet et de la main,Plaie punctiforme de la face palmaire du 4ème doigt droit,0.423994,0.4505,.30-.55,0,0,0,0,0
+251,E6605,obesite due a un exces calorique de l'adulte avec indice de masse corporelle [imc] egal ou superieur a 35 kg/m2 et inferieur a 40 kg/m2,hypertension artérielle et une stéatose hépatique,0.040323,0.3039,.30-.55,0,0,0,0,0
+252,K413,"hernie crurale, (unilaterale ou) sans precision, avec occlusion, sans gangrene",hernie crurale gauche étranglée depuis 8H avec occlusion,0.584071,0.5432,.30-.55,1,1,1,3,1
+253,L030,phlegmon des doigts et des orteils,périonyxis non collecté du premier orteil gauche face latérale,0.219591,0.5141,.30-.55,1,1,1,3,1
+254,N40,hyperplasie de la prostate,rétention aiguë d'urines,-0.029916,0.3098,.30-.55,0,0,0,0,0
+255,C20,tumeur maligne du rectum,tumeur sous-angulaire gauche,-0.061042,0.5287,.30-.55,0,0,0,0,0
+256,K565,"adherences de l'intestin (brides), avec occlusion",défense en fosse iliaque droite,0.247146,0.382,.30-.55,0,0,0,0,0
+257,S610,plaie ouverte de(s) doigt(s) (sans lesion de l'ongle),plaie transversale de la face dorsale du 3ᵉ doigt droit,0.267307,0.3746,.30-.55,1,1,1,3,1
+258,K358,"appendicites aigues, autres et non precisees",péritonite appendiculaire localisée,0.406271,0.3801,.30-.55,1,1,0,2,1
+259,C20,tumeur maligne du rectum,lésions secondaires hépatiques situées dans le foie gauche,-0.103153,0.3163,.30-.55,0,0,0,0,0
+260,N23,"colique nephretique, sans precision",colique néphrétique avec insuffisance rénale aigue,0.456837,0.5424,.30-.55,1,1,1,3,1
+261,K802,calcul de la vesicule biliaire (sans cholecystite),vésicule multi lithiasique,0.487971,0.4173,.30-.55,1,1,1,3,1
+262,K818,autres cholecystites,colique hépatique avec inflammation vésiculaire chronique,0.20225,0.3567,.30-.55,1,1,1,3,1
+263,C182,tumeur maligne du colon ascendant,adénocarcinome lieberkühnien bien différencié pMMR RAS sauvage,0.063156,0.4356,.30-.55,1,0,1,2,1
+264,K432,"eventration post-operatoire, sans occlusion ni gangrene",éventration sur la cicatrice d'extraction (open coelioscopie,0.497373,0.4678,.30-.55,1,1,1,3,1
+265,M511,atteintes d'un disque lombaire et d'autres disques intervertebraux avec radiculopathie,hernie discale L4-L5 conflictuelle avec la racine L5 droite,0.438016,0.4847,.30-.55,1,1,1,3,1
+266,K449,"hernie diaphragmatique, (sans occlusion ni gangrene)",hernie hiatale,0.613157,0.408,.30-.55,1,1,1,3,1
+267,E6605,obesite due a un exces calorique de l'adulte avec indice de masse corporelle [imc] egal ou superieur a 35 kg/m2 et inferieur a 40 kg/m2,apnée du sommeil nécessitant une ventilation nocturne par PPC,0.057689,0.3267,.30-.55,0,0,0,0,0
+268,N300,cystite aigue,hématurie macroscopique importante depuis son début de cystite,0.439757,0.4332,.30-.55,1,1,1,3,1
+269,K432,"eventration post-operatoire, sans occlusion ni gangrene",syndrome inflammatoire post opératoire en régression,0.312719,0.3849,.30-.55,0,0,0,0,0
+270,M511,atteintes d'un disque lombaire et d'autres disques intervertebraux avec radiculopathie,rétrécissement foraminal gauche serré avec épaississement du ligament jaune,0.017688,0.4393,.30-.55,0,0,0,0,0
+271,C187,tumeur maligne du colon sigmoide,tumeur sigmoidienne avec métastases hépatiques bilobaires,0.527041,0.4356,.30-.55,1,1,1,3,1
+272,E6606,obesite due a un exces calorique de l'adulte avec indice de masse corporelle [imc] egal ou superieur a 40 kg/m2 et inferieur a 50 kg/m2,obésité morbide,0.408996,0.3561,.30-.55,1,1,1,3,1
+273,M160,"coxarthrose primaire, bilaterale",coxarthrose invalidante,0.509768,0.4316,.30-.55,1,1,1,3,1
+274,K800,calcul de la vesicule biliaire avec cholecystite aigue,calculs / sludge,0.09993,0.3113,.30-.55,1,0,0,1,0
+275,M751,syndrome de la coiffe des rotateurs,Omarthrose excentrique gléno-humérale gauche douloureuse,0.141797,0.3926,.30-.55,0,0,0,0,0
+276,C163,tumeur maligne de l'antre pylorique,prothèse de hanche gauche,0.089884,0.3278,.30-.55,0,0,0,0,0
+277,M758,autres lesions de l'epaule,Lésion de la face profonde du supra-épineux de stade I,0.285967,0.3861,.30-.55,1,1,1,3,1
+278,C678,tumeur maligne a localisations contigues de la vessie,tapis polypoïde d'une grande partie du trigone,-0.019552,0.3725,.30-.55,0,0,0,0,0
+279,N130,hydronephrose avec obstruction de la jonction pyelo-ureterale,pyélonéphrite aiguë obstructive avec insuffisance rénale aiguë,0.539629,0.3232,.30-.55,0,0,0,0,0
+280,S3200,fracture fermee d'une vertebre lombaire,Fracture tassement A3 L3,0.531652,0.3545,.30-.55,1,1,1,3,1
+281,K801,calcul de la vesicule biliaire avec une autre forme de cholecystite,lithiase de la voie biliaire principale,0.436611,0.5069,.30-.55,0,0,0,0,0
+282,S835,entorse et foulure des ligaments croises du genou (anterieur) (posterieur),anse de seau du segment postérieur et moyen du ménisque latéral,0.357467,0.4044,.30-.55,0,0,0,0,0
+283,K400,"hernie inguinale bilaterale, avec occlusion, sans gangrene","glaucome chronique, cataracte bilatérale",-0.011383,0.3235,.30-.55,0,0,0,0,0
+284,C676,tumeur maligne de l'orifice ureteral,leucocyturie avec hématurie sans bactériurie,-0.02325,0.3134,.30-.55,0,0,0,0,0
+285,M171,autres gonarthroses primaires,"Hypertension artérielle, dyslipidémie",0.026834,0.3617,.30-.55,0,0,0,0,0
+286,N40,hyperplasie de la prostate,HBP 70 mL symptomatique malgré traitement médical,0.154063,0.3828,.30-.55,1,1,1,3,1
+287,S2200,fracture fermee d'une vertebre dorsale,fracture instable de T11,0.448312,0.4467,.30-.55,1,1,1,3,1
+288,K801,calcul de la vesicule biliaire avec une autre forme de cholecystite,cytolyse avec des ASAT à 148 et des ALAT à 110,0.135372,0.3123,.30-.55,0,0,0,0,0
+289,N40,hyperplasie de la prostate,adénome de prostate,0.682532,0.4615,.30-.55,1,1,1,3,1
+290,N201,calcul de l'uretere,calcul de l'uretère pelvien par urétéroscopie rigide droite,0.547164,0.4151,.30-.55,1,1,1,3,1
+291,S8220,fracture fermee de la diaphyse du tibia,"Fracture diaphysaire tibial gauche
+
+Antécédent",0.652783,0.353,.30-.55,1,1,1,3,1
+292,K649,"hemorroides, sans precision",maladie hémorroïdaire stade III,0.485507,0.5335,.30-.55,1,1,1,3,1
+293,S663,lesion traumatique du muscle et du tendon extenseurs d'un autre doigt au niveau du poignet et de la main,plaie par couteau en regard face postérieure de la main gauche réal,0.097917,0.3393,.30-.55,0,0,0,0,0
+294,C671,tumeur maligne du dome de la vessie,tuméfaction suspecte du dôme vésical,0.50096,0.4799,.30-.55,0,1,1,2,1
+295,N40,hyperplasie de la prostate,HBP depuis plusieurs plusieurs annés,0.175213,0.354,.30-.55,1,1,1,3,1
+296,K449,"hernie diaphragmatique, (sans occlusion ni gangrene)",reflux gastro-oesophagien sous MOPRAL et un endobrachyoesophage,0.004228,0.4013,.30-.55,0,0,0,0,0
+297,M6534,"doigt ""a ressort"" - main",doigt à ressaut,0.779292,0.3006,.30-.55,1,1,1,3,1
+298,M511,atteintes d'un disque lombaire et d'autres disques intervertebraux avec radiculopathie,récessus latéral gauche rétréci,0.049739,0.4742,.30-.55,0,0,0,0,0
+299,M201,hallux valgus (acquis),hallux valgus avec lésions dégénératives de l'interligne C2 M2,0.402721,0.4426,.30-.55,1,1,1,3,1
+300,M512,hernie d'un autre disque intervertebral precise,radiculopathie déficitaire S1 gauche et instabilité segmentaire,-0.030423,0.3954,.30-.55,0,0,0,0,0
+301,N200,calcul du rein,dilatation des calices rénaux,0.383963,0.3267,.30-.55,0,0,0,0,0
+302,S835,entorse et foulure des ligaments croises du genou (anterieur) (posterieur),lésion méniscale externe associée à des kystes antéro-latérales,0.183312,0.4132,.30-.55,0,0,0,0,0
+303,C786,tumeur maligne secondaire du retroperitoine et du peritoine,tumeur d'origine colorectale ou appendiculaire,0.152621,0.423,.30-.55,0,0,0,0,0
+304,N135,"coudure et retrecissement ureteral, sans hydronephrose",aspect de syndrome de jonction,-0.026216,0.3253,.30-.55,0,0,1,1,0
+305,C671,tumeur maligne du dome de la vessie,tumeurs de la vessie ou plus,0.565949,0.3848,.30-.55,1,1,1,3,1
+306,K610,abces anal,abcès de la marge anale à 3h en position gynécologique,0.623559,0.5372,.30-.55,1,1,1,3,1
+307,C61,tumeur maligne de la prostate,"adénocarcinome prostatique
+
+Antécédents médicaux, chirurgicaux, familiaux, allergies",0.372359,0.3755,.30-.55,1,1,1,3,1
+308,C182,tumeur maligne du colon ascendant,lésion ulcérobourgeonnante du côlon ascendant saignant spontanément et au contact,0.492874,0.3387,.30-.55,1,1,1,3,1
+309,K565,"adherences de l'intestin (brides), avec occlusion",fistule biliaire de haut grade compliquée,0.040973,0.3165,.30-.55,0,0,0,0,0
+310,N328,autres affections precisees de la vessie,urothélial de haut grade,0.26917,0.4169,.30-.55,0,0,0,0,0
+311,K810,cholecystite aigue,cholécystite aigüe lithiasique Tokyo I,0.126351,0.5496,.30-.55,1,1,1,3,1
+312,C671,tumeur maligne du dome de la vessie,lésion suspecte du dôme vésical,0.522536,0.5241,.30-.55,0,1,1,2,1
+313,K430,"eventration post-operatoire, avec occlusion sans gangrene",éventration médiane étranglée,0.276612,0.3064,.30-.55,1,1,1,3,1
+314,N136,pyonephrose,Pyélonéphrite aiguë droite,0.356071,0.3664,.30-.55,0,0,0,0,0
+315,M512,hernie d'un autre disque intervertebral precise,sciatique S1 gauche hyperalgique avec paresthésies,-0.040273,0.3004,.30-.55,0,0,0,0,0
+316,M751,syndrome de la coiffe des rotateurs,AVP haute cinétique il y a 1 an,0.033023,0.432,.30-.55,0,0,0,0,0
+317,G562,lesion du nerf cubital,Déficit du fléchisseur profond du cinquième doigt,0.085604,0.3484,.30-.55,1,0,0,1,0
+318,S5250,fracture fermee de l'extremite inferieure du radius,Traumatisme fermé du poignet droit,0.397699,0.4347,.30-.55,0,0,0,0,0
+319,N202,calcul du rein avec calcul de l'uretere,tableau de colique néphrétique gauche,0.302923,0.3331,.30-.55,0,0,0,0,0
+320,K353,appendicite aigue avec peritonite localisee,Appendicite aigüe avec péritonite localisée,1.0,0.573,>.55,1,1,1,3,1
+321,C64,"tumeur maligne du rein, a l'exception du bassinet",tumeur rénale droite,0.698585,0.5648,>.55,1,1,1,3,1
+322,K413,"hernie crurale, (unilaterale ou) sans precision, avec occlusion, sans gangrene",Hernie crurale droite étranglée,0.641291,0.6034,>.55,1,1,1,3,1
+323,C679,"tumeur maligne de la vessie, sans precision",hématurie macroscopique caillotante,0.047274,0.5557,>.55,0,0,0,0,0
+324,S5250,fracture fermee de l'extremite inferieure du radius,fracture extra-articulaire instable de l'extrémité distale du radius droit,0.609953,0.6149,>.55,1,1,1,3,1
+325,C180,tumeur maligne du caecum,adénocarcinome du caecum,0.928615,0.5637,>.55,1,1,1,3,1
+326,K353,appendicite aigue avec peritonite localisee,appendicite aiguë assez marquée,0.517112,0.6022,>.55,1,1,1,3,1
+327,C671,tumeur maligne du dome de la vessie,tumeur de vessie,0.497593,0.5615,>.55,1,1,1,3,1
+328,M169,"coxarthrose, sans precision",coxarthrose droite,0.890193,0.6251,>.55,1,1,1,3,1
+329,C211,tumeur maligne du canal anal,carcinome épidermoïde du canal anal avec métastase pulmonaires pré occlusif,0.325937,0.5554,>.55,1,1,1,3,1
+330,S8280,fractures fermees d'autres parties de la jambe,fracture bimalléolaire inter-ligamentaire de cheville droite,0.464255,0.6082,>.55,1,1,1,3,1
+331,K413,"hernie crurale, (unilaterale ou) sans precision, avec occlusion, sans gangrene",hernie crurale droite étranglée,0.641291,0.5659,>.55,1,1,1,3,1
+332,M163,autres coxarthroses dysplasiques,coxarthrose dysplasique sévère,0.80153,0.5603,>.55,1,1,1,3,1
+333,R31,"hematurie, sans precision",hématurie avec déglobulisation ayant nécessité une transfusion,0.400981,0.5807,>.55,1,1,1,3,1
+334,N44,torsion du testicule,torsion du cordon spermatique droit,0.546145,0.5622,>.55,1,1,1,3,1
+335,K400,"hernie inguinale bilaterale, avec occlusion, sans gangrene",hernie inguinale gauche étranglée avec syndrome occlusif,0.739259,0.5789,>.55,0,0,1,1,0
+336,C184,tumeur maligne du colon transverse,adénocarcinome du côlon transverse gauche,0.888014,0.5828,>.55,1,1,1,3,1
+337,C211,tumeur maligne du canal anal,carcinome épidermoïde du canal anal,0.848631,0.5573,>.55,1,1,1,3,1
+338,S4230,fracture fermee de la diaphyse de l'humerus,fracture diaphysaire transverse déplacée du tiers moyen de l'humérus,0.644202,0.6383,>.55,1,1,1,3,1
+339,K402,"hernie inguinale bilaterale, (sans occlusion ni gangrene)",hernie inguinale droite et gauche réductible,0.672178,0.5543,>.55,1,1,1,3,1
+340,M512,hernie d'un autre disque intervertebral precise,hernie foraminale droite L5-S1 sur discopathie inflammatoire active,0.370947,0.5922,>.55,1,1,1,3,1
+341,S3200,fracture fermee d'une vertebre lombaire,Fracture de la vertèbre L1 classification A3 AOSpine,0.402592,0.5888,>.55,1,1,1,3,1
+342,C672,tumeur maligne de la paroi laterale de la vessie,tumeur de vessie de bas grade,0.364282,0.5505,>.55,1,1,1,3,1
+343,N111,pyelonephrite obstructive (chronique),Pyélonéphrite aiguë obstructive gauche,0.559221,0.5677,>.55,1,1,1,3,1
+344,K642,hemorroides du troisieme degre,pathologie hémorroïdaire grade IV latéral gauche,0.531732,0.5745,>.55,0,0,0,0,0
+345,M751,syndrome de la coiffe des rotateurs,syndrome d'empiètement de l'épaule droite,0.456334,0.5507,>.55,0,1,1,2,1
+346,K353,appendicite aigue avec peritonite localisee,appendicite aiguë avec infiltration de la graisse péri-appendiculaire,0.542159,0.5709,>.55,1,1,1,3,1
+347,M201,hallux valgus (acquis),hallux valgus gauche,0.901839,0.5717,>.55,1,1,1,3,1
+348,S8200,fracture fermee de la rotule,Fracture de la rotule droite fermée et complètement déplacée,0.779322,0.5871,>.55,1,1,1,3,1
+349,N23,"colique nephretique, sans precision",colique néphrétique gauche,0.751458,0.6074,>.55,1,1,1,3,1
+350,K851,pancreatite aigue d'origine biliaire,pancréatite CTSI 2,0.208649,0.5539,>.55,1,1,1,3,1
+351,S6200,fracture fermee de l'os scaphoide de la main,Fracture fermée du scaphoïde droit,0.840606,0.5876,>.55,1,1,1,3,1
+352,N23,"colique nephretique, sans precision",colique néphrétique droite simple,0.458722,0.6016,>.55,1,1,1,3,1
+353,K810,cholecystite aigue,cholécystite aiguë compliquée d'une péritonite biliaire,0.574821,0.5793,>.55,1,1,1,3,1
+354,C241,tumeur maligne de l'ampoule de vater,adénocarcinome de l'ampoule de Vater,0.895681,0.5514,>.55,1,1,1,3,1
+355,C181,tumeur maligne de l'appendice,adénocarcinome appendiculaire diagnostiqué après appendicectomie,0.681655,0.5569,>.55,1,1,1,3,1
+356,K409,"hernie inguinale, (unilaterale ou) sans precision(, sans occlusion ni gangrene)",hernie inguinale droite symptomatique,0.677426,0.611,>.55,1,1,1,3,1
+357,S4230,fracture fermee de la diaphyse de l'humerus,fracture médiodiaphysaire transversale complètement déplacée de l'humérus gauche,0.543535,0.5598,>.55,1,1,1,3,1
+358,S5260,fracture fermee de l'extremite inferieure du cubitus et du radius,fracture comminutive articulaire de l'extrémité distale du radius droit,0.514756,0.5792,>.55,1,1,1,3,1
+359,M179,"gonarthrose, sans precision",gonarthrose tricompartimentale droite sur genu varum,0.427309,0.5797,>.55,1,1,1,3,1
+360,C181,tumeur maligne de l'appendice,tumeur maligne de type adénocarcinome d'origine appendiculaire,0.830369,0.5829,>.55,1,1,1,3,1
+361,C163,tumeur maligne de l'antre pylorique,adénocarcinome de l'antre gastrique,0.695682,0.5837,>.55,1,1,1,3,1
+362,M201,hallux valgus (acquis),hallux valgus droit sévère,0.824881,0.5851,>.55,1,1,1,3,1
+363,K358,"appendicites aigues, autres et non precisees",appendicite aiguë non compliquée,0.764328,0.6107,>.55,1,1,1,3,1
+364,N359,"retrecissement uretral, sans precision",sténose punctiforme de l'urètre bulbaire,0.329064,0.574,>.55,1,1,1,3,1
+365,C184,tumeur maligne du colon transverse,Tumeur du colon transverse droit,0.880365,0.5654,>.55,1,1,1,3,1
+366,C182,tumeur maligne du colon ascendant,tumeur du côlon ascendant,0.917192,0.6185,>.55,1,1,1,3,1
+367,M160,"coxarthrose primaire, bilaterale",coxarthrose polaire inférieure de la hanche droite de stade III,0.395721,0.5762,>.55,0,1,1,2,1
+368,N130,hydronephrose avec obstruction de la jonction pyelo-ureterale,syndrome de la jonction pyélourétérale gauche,0.412575,0.5667,>.55,1,1,1,3,1
+369,C64,"tumeur maligne du rein, a l'exception du bassinet",tumeur au pôle supérieur du rein droit,0.647476,0.5569,>.55,1,1,1,3,1
+370,S8220,fracture fermee de la diaphyse du tibia,fracture spiroïde de la diaphyse tibiale moyenne avec déplacement,0.556569,0.5519,>.55,1,1,1,3,1
+371,C181,tumeur maligne de l'appendice,adénocarcinome de l'appendice avec envahissement de la base,0.657041,0.5907,>.55,1,1,1,3,1
+372,M512,hernie d'un autre disque intervertebral precise,hernie discale postéro-latérale gauche L5-S1,0.551997,0.5974,>.55,1,1,1,3,1
+373,K610,abces anal,abcès de la marge anale,0.852055,0.66,>.55,1,1,1,3,1
+374,S8200,fracture fermee de la rotule,fracture transversale simple complètement déplacée de la rotule droite,0.586239,0.5521,>.55,1,1,1,3,1
+375,K610,abces anal,abcès anal collecté,0.88568,0.5847,>.55,1,1,1,3,1
+376,M751,syndrome de la coiffe des rotateurs,tendinopathie du biceps,0.216642,0.5731,>.55,0,0,0,0,0
+377,N40,hyperplasie de la prostate,hypertrophie bénigne de prostate connue,0.817641,0.5887,>.55,1,1,1,3,1
+378,M161,autres coxarthroses primaires,coxarthrose de hanche droite,0.641072,0.5731,>.55,1,1,1,3,1
+379,K810,cholecystite aigue,cholécystite aigüe Tokyo I,0.190454,0.6597,>.55,1,1,1,3,1
+380,K851,pancreatite aigue d'origine biliaire,pancréatite aiguë CTSI 2,0.306113,0.5886,>.55,1,1,1,3,1
+381,K409,"hernie inguinale, (unilaterale ou) sans precision(, sans occlusion ni gangrene)",hernie inguinale gauche depuis 3 ans,0.591932,0.5543,>.55,1,1,1,3,1
+382,N308,autres cystites,cystites à répétitions,0.652033,0.5769,>.55,1,1,1,3,1
+383,M163,autres coxarthroses dysplasiques,coxarthrose dysplasique gauche évoluant depuis plus de 7 ans,0.751103,0.5766,>.55,1,1,1,3,1
+384,K358,"appendicites aigues, autres et non precisees",appendicite aiguë avec présence de stercolithe,0.414741,0.5512,>.55,1,1,1,3,1
+385,K810,cholecystite aigue,cholécystite aiguë lithiasique compliquée d'un abcès péri-hilaire,0.481017,0.5884,>.55,1,1,1,3,1
+386,C20,tumeur maligne du rectum,tumeur rectale métastatique,0.850708,0.6101,>.55,1,1,1,3,1
+387,D291,tumeur benigne de la prostate,hypertrophie bénigne de prostate,0.788079,0.6445,>.55,1,1,1,3,1
+388,K358,"appendicites aigues, autres et non precisees",Appendicite aiguë non compliquée,0.764328,0.5972,>.55,1,1,1,3,1
+389,S5250,fracture fermee de l'extremite inferieure du radius,fracture de l'extrémité inférieure du radius droit,0.894745,0.5625,>.55,1,1,1,3,1
+390,S8280,fractures fermees d'autres parties de la jambe,Fracture fermée bi-malléolaire interligamentaire de la cheville droite,0.593344,0.5958,>.55,1,1,1,3,1
+391,K610,abces anal,Abcès de la marge anale,0.852055,0.5887,>.55,1,1,1,3,1
+392,K610,abces anal,abcès anal collecté non compliqué,0.818157,0.5528,>.55,1,1,1,3,1
+393,M171,autres gonarthroses primaires,gonarthrose gauche tricompartimentale stade 4,0.46865,0.5996,>.55,1,1,1,3,1
+394,K409,"hernie inguinale, (unilaterale ou) sans precision(, sans occlusion ni gangrene)",hernie inguinale droite,0.763886,0.5924,>.55,1,1,1,3,1
+395,L030,phlegmon des doigts et des orteils,périonyxis du premier orteil gauche face latérale,0.288233,0.5905,>.55,1,1,1,3,1
+396,C180,tumeur maligne du caecum,Adénocarcinome du caecum,0.928615,0.5514,>.55,1,1,1,3,1
+397,N44,torsion du testicule,Torsion du cordon spermatique gauche,0.532229,0.6077,>.55,1,1,1,3,1
+398,K403,"hernie inguinale, (unilaterale ou) sans precision, avec occlusion, sans gangrene",hernie inguinale droite étranglée,0.62096,0.5692,>.55,1,1,1,3,1
+399,S8280,fractures fermees d'autres parties de la jambe,Fracture fermée bi-malléolaire interligamentaire de la cheville gauche,0.63329,0.608,>.55,1,1,1,3,1

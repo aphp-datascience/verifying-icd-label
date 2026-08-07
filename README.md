@@ -29,12 +29,17 @@ GPU kernels, mixed precision and dataloader ordering are not deterministic.
 ## What is here
 
 ```
+annotations/*.csv                    1,200 annotated (code, passage) pairs — §2
+predictions/<arm>-s<seed>.parquet       84 runs × 288 patients — §3 and Table 1
 provenance/
-  configs/<family>/<run>/config.yml    90 resolved training configs
-  runs_summary.csv                     84 runs: final loss, micro/macro P/R/F, steps, seed
-  checkpoints_sha256.txt                6 qualifier checkpoints
+  configs/<family>/<run>/config.yml     90 resolved training configs
+  runs_summary.csv                      84 runs: final loss, micro/macro P/R/F, steps, seed
+  checkpoints_sha256.txt                 6 qualifier checkpoints
 archive/                              full training histories (gitignored, see below)
 ```
+
+`annotations/` and `predictions/` are what levels 1 and 2 run on; each folder has its own README
+with the schema and a snippet reproducing the headline number.
 
 **Scope: only the runs behind a number in the paper.** The study explored 149 encoder arms; 135
 of them answer questions the paper does not report, and shipping them would invite a reader to
