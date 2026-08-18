@@ -50,6 +50,8 @@ on the 0.0125 grid the calibration used, the lowest one reaching precision ≥ 0
 the reliabilizer threshold the paper operates at. Precision is 0.9186 there and 0.8989 one step
 below.
 
+`python analysis/section2.py` prints all of it, both operating points included.
+
 ## Provenance and license
 
 `real-dev400.csv` quotes short passages from **PARHAF** (Tannier et al., 2026), a corpus of

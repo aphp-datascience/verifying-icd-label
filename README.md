@@ -29,6 +29,9 @@ GPU kernels, mixed precision and dataloader ordering are not deterministic.
 ## What is here
 
 ```
+analysis/table1.py                    regenerates Table 1 from the predictions
+analysis/contrasts.py                 paired per-patient contrast, CI and McNemar
+analysis/section2.py                  ROC-AUCs and the calibrated thresholds
 annotations/*.csv                    1,200 annotated (code, passage) pairs — §2
 predictions/<arm>-s<seed>.parquet       84 runs × 288 patients — §3 and Table 1
 provenance/
@@ -38,8 +41,20 @@ provenance/
 archive/                              full training histories (gitignored, see below)
 ```
 
-`annotations/` and `predictions/` are what levels 1 and 2 run on; each folder has its own README
-with the schema and a snippet reproducing the headline number.
+`analysis/` is levels 1 and 2, and runs on `annotations/` and `predictions/` alone — no model,
+no inference, four dependencies:
+
+```bash
+python analysis/table1.py                                # every cell of Table 1
+python analysis/contrasts.py filt_v4_veto rnd_v4_veto    # the headline +13.0, with its CI
+python analysis/section2.py                              # ROC-AUC 0.95 / 0.82, threshold 0.5375
+```
+
+⚠️ **Read a contrast with `contrasts.py`, never off Table 1.** The `±` is an inter-seed standard
+deviation; it hides the sampling of the 288 patients, which sets a floor of ±1.6 to ±3.5 pp that
+no number of seeds reduces. A gain consistent on all six seeds can still fail to clear it — the
+native `+1.9` does. See [analysis/README.md](analysis/README.md), which also lists the paper's
+numbers that this repository cannot reach.
 
 **Scope: only the runs behind a number in the paper.** The study explored 149 encoder arms; 135
 of them answer questions the paper does not report, and shipping them would invite a reader to

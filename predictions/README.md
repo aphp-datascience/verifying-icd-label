@@ -26,6 +26,10 @@ The contrast that matters is always **against the arm directly below it in the t
 size-matched random drop — never against the whole corpus, which would confound selection with
 mere shrinkage.
 
+That snippet gives the point estimate only. `python analysis/contrasts.py filt_v4_veto
+rnd_v4_veto` gives it with its confidence interval, its McNemar tests and the detectability
+floor of the test set — which is what decides whether a contrast is established.
+
 ## One absence worth stating
 
 Predictions on the 307-case PARHAF extension are not here. The replication on that set was
