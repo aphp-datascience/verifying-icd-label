@@ -32,6 +32,7 @@ GPU kernels, mixed precision and dataloader ordering are not deterministic.
 analysis/table1.py                    regenerates Table 1 from the predictions
 analysis/contrasts.py                 paired per-patient contrast, CI and McNemar
 analysis/section2.py                  ROC-AUCs and the calibrated thresholds
+analysis/parhaf_testset.py            rebuilds the test set from PARHAF, audits dp_gold
 annotations/*.csv                    1,200 annotated (code, passage) pairs — §2
 predictions/<arm>-s<seed>.parquet       84 runs × 288 patients — §3 and Table 1
 provenance/
@@ -48,7 +49,13 @@ no inference, four dependencies:
 python analysis/table1.py                                # every cell of Table 1
 python analysis/contrasts.py filt_v4_veto rnd_v4_veto    # the headline +13.0, with its CI
 python analysis/section2.py                              # ROC-AUC 0.95 / 0.82, threshold 0.5375
+python analysis/parhaf_testset.py                        # rebuild the 288 cases, audit dp_gold
 ```
+
+`parhaf_testset.py` is the one script that does not start from something we wrote: PARHAF is
+public on the Hub, so it re-derives the test set from the source and verifies that the `dp_gold`
+of all 84 prediction files is the diagnosis PARHAF records. It needs `datasets`, reads the public
+part only, and uses no token.
 
 ⚠️ **Read a contrast with `contrasts.py`, never off Table 1.** The `±` is an inter-seed standard
 deviation; it hides the sampling of the 288 patients, which sets a floor of ±1.6 to ±3.5 pp that
