@@ -36,19 +36,26 @@ the released annotations carry no sibling scores, so nothing here exercises the 
 
 | Model | Where | Status |
 |---|---|---|
-| Evidence qualifier, `RR+LN`, 6 checkpoints | Hugging Face Hub | **release in progress** |
-| Evidence extractor | extractor repo | not released as weights |
+| Evidence qualifier | Hugging Face Hub, with the code that pools it | **release in progress** |
+| Evidence extractor, `full` model | extractor repo | not released as weights |
 | Downstream coder, CamemBERTa-v2 + attention pooling | recipe in `provenance/configs/` | not released as weights |
 
-⚠️ **`RR+LN` is an ensemble and cannot be collapsed.** It is the mean of six checkpoints'
-**cosine similarities**: two training variants, `RR` and `LN`, at three seeds each. Averaging
-weights or probabilities gives a different model. A single checkpoint reproduces no number in the
-paper.
+⚠️ **The qualifier is an ensemble and cannot be collapsed.** It is the mean of six checkpoints'
+**cosine similarities**. Averaging weights or probabilities gives a different model, since the
+mean does not commute with the sigmoid. Pool on the cosines, before any threshold. A single
+checkpoint reproduces no number in the paper.
 
-⚠️ **Its weights are the only faithful record.** Several training settings were read from
-environment variables that no run manifest captured, so the recipe alone does not reconstruct it.
+⚠️ **Do not transfer the thresholds.** They are calibrated for this ensemble on SYN-CAL300.
+Cosine scales differ between models, and the sibling margin has been observed to flip sign;
+recalibrate on your own labelled pairs.
 
-Both variants, the integrity checks, and what is deliberately not published: [MODELS.md](MODELS.md).
+⚠️ **The extractor's per-fold models are not published, and should not be used.** Fold *k*'s model
+is trained on every other fold so that it never scores a document it has seen. Out of that
+context they invite exactly the mistake the folds exist to prevent.
+
+The qualifier's weights are published rather than only its recipe because several of its training
+settings were read from environment variables that no run manifest captured, so the recipe alone
+does not reconstruct it.
 
 ## Data
 
@@ -162,8 +169,8 @@ checkpoints.
 | Reliabilizer filter + margin | `clean_v4_veto` | `filt_v4_veto` |
 | ⟶ same-size random drop | `cln_rnd_v4_veto` | `rnd_v4_veto` |
 
-Each name takes the suffix `-s42` … `-s47`. The qualifier is
-`stepNOISEA-xE-contr{RR,LN}-s4{2,3,4}`.
+Each name takes the suffix `-s42` … `-s47`. The six qualifier checkpoints are pinned by
+`provenance/checkpoints_sha256.txt`.
 
 `provenance/configs/` holds *resolved* configs, not templates: corpus paths, backbone, `max_step`,
 `loss_scale` and referential are substituted in. With the seed, encoded in the run name, each file

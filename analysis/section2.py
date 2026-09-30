@@ -1,7 +1,7 @@
 r"""Section 2: discrimination of the qualifier, and the operating points derived from it.
 
 Runs on `annotations/*.csv` alone -- no model, no inference. The `cos_rr_ln` column is the
-cosine of the RR+LN ensemble, pooled over its six checkpoints, precomputed and released so that
+cosine of the released ensemble, pooled over its six checkpoints, precomputed and released so that
 this section is reproducible without the weights.
 
 /!\ The AUC is computed on the COSINE, not on the probability, and that is exact:
@@ -38,7 +38,7 @@ def main() -> None:
         y, s = d["label"].to_numpy(int), d["cos_rr_ln"].to_numpy(float)
         print(f"===== {title}   n={len(y)}  positives={int(y.sum())} "
               f"({y.mean():.0%})")
-        print(f"  ROC-AUC (RR+LN ensemble, 6 checkpoints): {roc_auc_score(y, s):.4f}")
+        print(f"  ROC-AUC (ensemble of 6 checkpoints): {roc_auc_score(y, s):.4f}")
         # The three votes are three passes, of which two share a model -- see annotations/README.
         agree = (d[["vote_opus", "vote_fable_v2", "vote_fable_v3"]].nunique(axis=1) == 1).mean()
         print(f"  unanimous annotation passes: {agree:.1%}\n")
