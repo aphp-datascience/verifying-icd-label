@@ -1,6 +1,7 @@
 # Per-patient predictions
 
-84 files, one per (arm, seed): the 14 arms of Table 1 at seeds 42–47. Each holds the 288 PARHAF
+84 files, one per (arm, seed): the 14 arms of the paper's Table 1 at seeds 42–47. Each holds the
+288 PARHAF
 cases scored by one trained classifier.
 
 | Column | Meaning |
@@ -12,7 +13,8 @@ cases scored by one trained classifier.
 | `juste_cat3` | match at the three-character category |
 
 Micro-F1 in the paper is `juste.mean()` over the 288 cases, averaged across the six seeds; the
-`±` is the standard deviation across seeds, not a standard error. Arm names map to Table 1 rows
+`±` is the standard deviation across seeds, not a standard error. Arm names map to the rows of
+the paper's Table 1
 in the [top-level README](../README.md).
 
 ```python

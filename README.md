@@ -27,7 +27,8 @@ Two thresholds read the document score: a permissive **verifier** and a stricter
 the labelled code to lead its best taxonomic sibling by a calibrated margin. All three thresholds
 are calibrated on `annotations/syn-cal300.csv`, never on a corpus this work evaluates.
 
-Those three modes are what Table 1 reports, and they live in neither component repository: the
+Those three modes are what the paper's Table 1 reports, and they live in neither component
+repository: the
 qualifier emits scores, the decision is taken here. [`pipeline/modes.py`](pipeline/modes.py) is
 their reference implementation, with the five choices that change the numbers and that the paper's
 prose does not pin down (what counts as a sibling, when the conjunction is evaluated, what happens
@@ -96,14 +97,31 @@ Three levels, each an order of magnitude more expensive than the last.
 | **3. retrain** | Re-run the pipeline end to end | the corpora and the three repositories above | GPU-weeks |
 
 ```bash
-python analysis/table1.py                                # every cell of Table 1
+python analysis/table1.py                                # the paper's Table 1, below
 python analysis/contrasts.py filt_v4_veto rnd_v4_veto    # the headline +13.0, with its CI
 python analysis/section2.py                              # ROC-AUC 0.95 / 0.82, threshold 0.5375
 python analysis/parhaf_testset.py                        # rebuild the 288 cases, audit dp_gold
 ```
 
 `analysis/` is levels 1 and 2 and runs on `annotations/` and `predictions/` alone: no model, no
-inference, four dependencies.
+inference, four dependencies. `table1.py` prints the table the rest of this README refers to,
+**Table 1 of the paper**, micro-F1 on the 288 PARHAF cases averaged over six seeds:
+
+```
+                                       native corpus                    30% corrupted
+                                      N     micro-F1   Δ ctrl.          N     micro-F1   Δ ctrl.
+  ----------------------------------------------------------------------------------------------
+  No filter                       11,605    41.1 ±1.5       ---    11,605    28.6 ±1.0       ---
+  Verifier filter                 11,573    39.7 ±3.1      -1.5    10,617    30.5 ±1.4      +2.5
+    same-size random drop                   41.2 ±1.9                        28.0 ±2.5
+  Reliabilizer filter              9,771    42.2 ±1.2      +0.8     7,488    37.6 ±2.2      +8.6
+    same-size random drop                   41.4 ±1.2                        28.9 ±2.0
+  Reliabilizer filter + margin     7,977    43.3 ±0.8      +1.9     6,670    41.8 ±1.5     +13.0
+    same-size random drop                   41.4 ±1.2                        28.9 ±2.9
+```
+
+Each filter is followed by its own size-matched random drop: the comparison that means something
+is the vertical one, against the line directly below, never against the unfiltered corpus.
 
 ⚠️ **Level 2 does not re-run inference.** It recomputes the statistics from predictions that were
 already written, so it verifies the whole analysis, where the paper's claims live, but
@@ -113,7 +131,7 @@ not that those predictions came from the models. Checking that is level 3.
 a model within the inter-seed standard deviation the paper prints, but never the same weights. GPU
 kernels, mixed precision and dataloader ordering are not deterministic.
 
-⚠️ **Read a contrast with `contrasts.py`, never off Table 1.** The `±` there is an inter-seed
+⚠️ **Read a contrast with `contrasts.py`, never off the table above.** The `±` there is an inter-seed
 standard deviation; it hides the sampling of the 288 patients, which sets a floor of ±1.6 to
 ±3.5 pp that no number of seeds reduces. A gain consistent on all six seeds can still fail to
 clear it: the native `+1.9` does. See [analysis/README.md](analysis/README.md), which also lists
@@ -124,12 +142,12 @@ the paper's numbers this repository cannot reach.
 ```
 docs/pipeline.png                       the figure above
 pipeline/modes.py                       verifier, reliabilizer and margin rule, with thresholds
-analysis/table1.py                      regenerates Table 1 from the predictions
+analysis/table1.py                      regenerates the paper's Table 1 from the predictions
 analysis/contrasts.py                   paired per-patient contrast, CI and McNemar
 analysis/section2.py                    ROC-AUCs and the calibrated thresholds
 analysis/parhaf_testset.py              rebuilds the test set from PARHAF, audits dp_gold
 annotations/*.csv                       1,200 annotated (code, passage) pairs for §2
-predictions/<arm>-s<seed>.parquet       84 runs × 288 patients, §3 and Table 1
+predictions/<arm>-s<seed>.parquet       84 runs × 288 patients, §3 and the table above
 provenance/
   configs/<family>/<run>/config.yml     90 resolved training configs
   runs_summary.csv                      84 runs: final loss, micro/macro P/R/F, steps, seed
@@ -139,10 +157,10 @@ archive/                                full training histories (gitignored, see
 
 **Scope: only the runs behind a number in the paper.** The study explored 149 encoder arms; 135 of
 them answer questions the paper does not report, and shipping them would invite a reader to
-reconstruct results we chose not to claim. What is here is the 14 arms of Table 1 at 6 seeds, plus
+reconstruct results we chose not to claim. What is here is the 14 arms of the table at 6 seeds, plus
 the 6 checkpoints of the qualifier.
 
-| Table 1 row | native corpus | 30% corrupted |
+| Row of the table | native corpus | 30% corrupted |
 |---|---|---|
 | No filter | `clean` | `noisy` |
 | Verifier filter | `clean_v4_verif` | `filt_v4_verif` |

@@ -1,7 +1,7 @@
 r"""The three decision modes, as executable specification.
 
 A document score is one number per (document, code); the paper turns it into a keep/drop verdict
-in three ways, and Table 1 reports all three:
+in three ways, and Table 1 of the paper reports all three:
 
   * VERIFIER            the permissive threshold, tuned for 90% recall on valid codes
   * RELIABILIZER        the strict threshold, tuned for 90% precision on corrupted ones

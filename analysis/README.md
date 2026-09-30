@@ -7,7 +7,7 @@ nothing else. No model is loaded and no inference is run: this is level 2.
 pip install pandas numpy scipy scikit-learn pyarrow
 pip install datasets                                     # for parhaf_testset.py only
 
-python analysis/table1.py                                # Table 1, all 14 cells
+python analysis/table1.py                                # the paper's Table 1, all 14 cells
 python analysis/table1.py --latex                        # the same, as the paper's tabular
 python analysis/contrasts.py filt_v4_veto rnd_v4_veto    # the headline +13.0, with its CI
 python analysis/section2.py                              # the ROC-AUCs and the thresholds
@@ -16,7 +16,7 @@ python analysis/parhaf_testset.py                        # rebuild the test set,
 
 | Script | Reproduces | Reads |
 |---|---|---|
-| `table1.py` | every cell of Table 1 and both Δ columns | `predictions/` |
+| `table1.py` | every cell of the paper's Table 1 and both Δ columns | `predictions/` |
 | `contrasts.py` | any paired contrast, its 95% CI, its McNemar tests | `predictions/` |
 | `section2.py` | ROC-AUC 0.95 and 0.82, and the 0.5375 threshold | `annotations/` |
 | `parhaf_testset.py` | the 288 cases, and checks every `dp_gold` against them | PARHAF on the Hub |
@@ -35,11 +35,11 @@ It reads the public part only and uses no token; the embargoed patients are not 
 and cannot be reached from it. With `--out-dir` it also writes the `test.csv` that the downstream
 classifier consumes, which is the entry point to level 3.
 
-## Read a contrast with `contrasts.py`, never off Table 1
+## Read a contrast with `contrasts.py`, never off the table
 
-The `±` in Table 1 is an inter-seed standard deviation, and a Δ column is a difference of two
+The `±` in that table is an inter-seed standard deviation, and a Δ column is a difference of two
 means. Neither says whether a contrast is established. `contrasts.py` separates the two
-uncertainties that Table 1 cannot:
+uncertainties that the table cannot:
 
 - **training variance**, which shrinks as `1/√seeds`;
 - **patient sampling**, which does not shrink at all and sets a floor of ±1.6 to ±3.5 pp

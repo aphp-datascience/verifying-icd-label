@@ -68,6 +68,7 @@ def main() -> None:
             for j in (0, 1)]
 
     if not latex:
+        print(f"{'':<30}{'native corpus':^32}{'30% corrupted':^34}")
         print(f"{'':<30}{'N':>9}{'micro-F1':>13}{'Δ ctrl.':>10}"
               f"{'N':>11}{'micro-F1':>13}{'Δ ctrl.':>10}")
         print("  " + "-" * 94)
