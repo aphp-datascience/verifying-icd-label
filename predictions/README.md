@@ -22,13 +22,13 @@ f = lambda a: np.mean([pd.read_parquet(f"predictions/{a}-s{s}.parquet").juste.me
 f("filt_v4_veto") - f("rnd_v4_veto")     # +13.0, the paper's headline contrast
 ```
 
-The contrast that matters is always **against the arm directly below it in the table** — the
-size-matched random drop — never against the whole corpus, which would confound selection with
+The contrast that matters is always **against the arm directly below it in the table**, the
+size-matched random drop, never against the whole corpus, which would confound selection with
 mere shrinkage.
 
 That snippet gives the point estimate only. `python analysis/contrasts.py filt_v4_veto
 rnd_v4_veto` gives it with its confidence interval, its McNemar tests and the detectability
-floor of the test set — which is what decides whether a contrast is established.
+floor of the test set, which is what decides whether a contrast is established.
 
 ## One absence worth stating
 

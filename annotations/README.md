@@ -15,14 +15,14 @@ passage attests the code.
 |---|---|
 | `span_id` | index within the set |
 | `code` | ICD-10 code queried |
-| `definition` | official label of that code — the qualifier's left input |
-| `libelle` | the candidate passage — the qualifier's right input |
+| `definition` | official label of that code, the qualifier's left input |
+| `libelle` | the candidate passage, the qualifier's right input |
 | `cos_rr_ln` | pooled cosine of the `RR+LN` ensemble (mean over its 6 checkpoints) |
 | `gliner_score` | extractor confidence, used for stratification only |
 | `bin` | extraction-score band the pair was sampled from (empty for `syn-clin500`) |
 | `vote_opus`, `vote_fable_v2`, `vote_fable_v3` | the three annotation passes, 0/1 |
 | `n_yes` | number of passes answering yes |
-| `label` | the ground truth used in the paper — the majority, i.e. `n_yes >= 2` |
+| `label` | the ground truth used in the paper: the majority, i.e. `n_yes >= 2` |
 
 `definition` and `libelle` keep their original names: they are the column names of the data
 contract the models are trained against.
@@ -46,7 +46,7 @@ roc_auc_score(d.label, d.cos_rr_ln)      # 0.9462, printed as 0.95 in §2
 ```
 
 Same on `syn-clin500.csv` gives 0.8209 (printed 0.82). On `syn-cal300.csv`, scanning thresholds
-on the 0.0125 grid the calibration used, the lowest one reaching precision ≥ 0.90 is **0.5375** —
+on the 0.0125 grid the calibration used, the lowest one reaching precision ≥ 0.90 is **0.5375**,
 the reliabilizer threshold the paper operates at. Precision is 0.9186 there and 0.8989 one step
 below.
 

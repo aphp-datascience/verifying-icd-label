@@ -1,7 +1,7 @@
 # Analysis
 
 Three scripts, each reproducing a published number from the material in this repository and
-nothing else. No model is loaded and no inference is run — this is level 2.
+nothing else. No model is loaded and no inference is run: this is level 2.
 
 ```bash
 pip install pandas numpy scipy scikit-learn pyarrow
@@ -31,7 +31,7 @@ is public on the Hugging Face Hub, so it rebuilds the 288 cases from the source 
 the `dp_gold` column of all 84 prediction files is the diagnosis PARHAF actually records. It
 exits non-zero if any label disagrees.
 
-It reads the public part only and uses no token — the embargoed patients are not in this test set
+It reads the public part only and uses no token; the embargoed patients are not in this test set
 and cannot be reached from it. With `--out-dir` it also writes the `test.csv` that the downstream
 classifier consumes, which is the entry point to level 3.
 
@@ -47,7 +47,7 @@ uncertainties that Table 1 cannot:
 
 The consequence is worth stating, because it cuts against the intuitive reading. On the native
 corpus the margin filter gains **+1.85 pp, in the same direction on all six seeds, with an
-inter-seed sd of only 1.05** — and it is still not established: the patient floor is ±3.45 pp,
+inter-seed sd of only 1.05**, and it is still not established: the patient floor is ±3.45 pp,
 so the 95% interval is `[-1.70; +5.41]`. More seeds would not change that. It would take more
 patients. Conversely the corrupted-corpus contrast of the same filter, `+12.96 pp`, clears the
 floor comfortably and is established.
@@ -62,7 +62,7 @@ The rest of the paper's numbers need something this repository does not carry, a
 all need the same thing:
 
 - **The attestation and rejection rates of §3** (99.7 / 72.2 %, 96.2 / 92.0 / 78.5 %) are
-  measured on PARHAF, which you can now load — but they need the extractor's spans over that
+  measured on PARHAF, which you can now load, but they need the extractor's spans over that
   text and the qualifier's score on each one. That is the two model repositories, so level 3.
 - **The residual noise (22 / 7 / 3 %) and the emptied-class analysis** (102 codes against 75,
   and the subgroup of 30 patients) are properties of the filtered training corpora: they depend
