@@ -71,5 +71,9 @@ trained before the fix, and these were scored without it.
 ## Where
 
 The Hugging Face Hub, not GitHub: 444 MB per checkpoint is above GitHub's per-file limit, and
-the Hub gives model cards, versioning and a resolvable identifier. This repository will link to
-them.
+the Hub gives model cards, versioning and a resolvable identifier.
+
+⏳ **Release in progress.** The link lands here and in [README.md](README.md) once the six
+checkpoints are on the Hub. Until then the integrity reference is
+`provenance/checkpoints_sha256.txt`, which pins exactly which six files the paper's numbers come
+from.
