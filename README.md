@@ -27,6 +27,14 @@ Two thresholds read the document score: a permissive **verifier** and a stricter
 the labelled code to lead its best taxonomic sibling by a calibrated margin. All three thresholds
 are calibrated on `annotations/syn-cal300.csv`, never on a corpus this work evaluates.
 
+Those three modes are what Table 1 reports, and they live in neither component repository: the
+qualifier emits scores, the decision is taken here. [`pipeline/modes.py`](pipeline/modes.py) is
+their reference implementation, with the five choices that change the numbers and that the paper's
+prose does not pin down (what counts as a sibling, when the conjunction is evaluated, what happens
+to a document with no evidence). It is a specification, not a demo: the released annotations carry
+no sibling scores, so nothing here exercises the margin. `python pipeline/modes.py` runs its
+self-test on a fixture.
+
 ## Models
 
 | Model | Where | Status |
@@ -115,6 +123,7 @@ the paper's numbers this repository cannot reach.
 
 ```
 docs/pipeline.png                       the figure above
+pipeline/modes.py                       verifier, reliabilizer and margin rule, with thresholds
 analysis/table1.py                      regenerates Table 1 from the predictions
 analysis/contrasts.py                   paired per-patient contrast, CI and McNemar
 analysis/section2.py                    ROC-AUCs and the calibrated thresholds
