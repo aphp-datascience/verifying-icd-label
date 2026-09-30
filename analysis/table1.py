@@ -104,7 +104,7 @@ def main() -> None:
     if not latex:
         print(f"\nseeds per cell: {sorted(seeds_seen)}   (± is the inter-seed sd)")
     if missing:
-        print(f"\nMissing dumps for {len(missing)} arm(s) — do not regenerate the table: "
+        print(f"\nMissing dumps for {len(missing)} arm(s), do not regenerate the table: "
               f"{', '.join(missing)}", file=sys.stderr)
 
 
