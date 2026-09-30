@@ -8,8 +8,16 @@ reasons; the rest deliberately are not.
 ### The evidence qualifier, because its recipe is lost
 
 The contrastive qualifier decides whether a candidate span is a valid denomination of an ICD-10
-code. It exists in two variants, `RR` and `LN`, each trained at seeds 42/43/44: six
-checkpoints, `best_model_stepNOISEA.pt`, 444 MB each.
+code. It exists in two training variants, each at seeds 42/43/44, six checkpoints in all
+(`best_model_stepNOISEA.pt`, 444 MB each):
+
+* **`RR`**, round-robin over a code's synonyms, so training sees all of them rather than the
+  handful a fixed sample would keep;
+* **`LN`**, lexical negatives, so the model is taught to reject the near-miss wordings it
+  otherwise scores high.
+
+The two attack the same deficit from different sides, which is why the released model pools them
+rather than picking a winner.
 
 **Publishing these weights is not a convenience, it is the only faithful record.** Several of
 the qualifier's training settings are read from environment variables, and no run manifest

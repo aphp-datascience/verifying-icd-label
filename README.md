@@ -45,7 +45,9 @@ self-test on a fixture.
 | Downstream coder | CamemBERTa-v2 + attention pooling; recipe in `provenance/configs/` | not released as weights |
 
 ⚠️ **The qualifier is an ensemble and cannot be collapsed.** `RR+LN` is the **mean of six
-checkpoints' cosine similarities**, not one set of weights. Averaging the weights gives a
+checkpoints' cosine similarities**, not one set of weights: two training variants, `RR` and `LN`,
+at three seeds each. Those two names appear in the checkpoint filenames and in the `cos_rr_ln`
+column of the annotations; [MODELS.md](MODELS.md) says what each variant changes. Averaging the weights gives a
 different model, and so does averaging probabilities: the mean does not commute with the
 sigmoid, so pooling must happen on the cosines, before any calibrated threshold is applied.
 

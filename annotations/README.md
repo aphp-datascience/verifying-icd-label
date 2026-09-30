@@ -17,7 +17,7 @@ passage attests the code.
 | `code` | ICD-10 code queried |
 | `definition` | official label of that code, the qualifier's left input |
 | `libelle` | the candidate passage, the qualifier's right input |
-| `cos_rr_ln` | pooled cosine of the `RR+LN` ensemble (mean over its 6 checkpoints) |
+| `cos_rr_ln` | pooled cosine of the released ensemble: the mean over its 6 checkpoints, 2 training variants at 3 seeds |
 | `gliner_score` | extractor confidence, used for stratification only |
 | `bin` | extraction-score band the pair was sampled from (empty for `syn-clin500`) |
 | `vote_opus`, `vote_fable_v2`, `vote_fable_v3` | the three annotation passes, 0/1 |
