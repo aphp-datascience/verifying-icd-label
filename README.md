@@ -1,8 +1,8 @@
 # Verifying ICD-10 Labels in Clinical Corpora
 
-Entry point for the project (PARTAGES / CU2): the **code** of the three components, the
-**models**, the **data**, and the **annotated evaluation sets** — plus the material needed to
-check every number in the paper.
+Code, models, data and annotated evaluation sets for the paper *Verifying ICD-10 Labels in
+Clinical Corpora* — plus the material needed to check every number in it. The label-verification
+pipeline is one component of the PARTAGES / CU2 project, not the whole of it.
 
 A trained ICD-10 coder is only as good as the labels it was trained on. This pipeline asks, for
 any (text, code) pair, whether the text actually attests the code — and filtering a corpus with
@@ -12,8 +12,9 @@ it produces a measurably better coder.
 
 ## Code — three repositories
 
-Each stage is its own repository, installable and runnable on its own. This one holds what binds
-them: the data contract between stages, the evaluation sets, and the analysis.
+The pipeline has three components, each its own repository, installable and runnable on its own.
+This one holds what binds them for this paper: the evaluation sets, the predictions and the
+analysis.
 
 | Stage | Repository | What it does |
 |---|---|---|
