@@ -40,22 +40,9 @@ the released annotations carry no sibling scores, so nothing here exercises the 
 | Evidence extractor, `full` model | extractor repo | not released as weights |
 | Downstream coder, CamemBERTa-v2 + attention pooling | recipe in `provenance/configs/` | not released as weights |
 
-⚠️ **The qualifier is an ensemble and cannot be collapsed.** It is the mean of six checkpoints'
-**cosine similarities**. Averaging weights or probabilities gives a different model, since the
-mean does not commute with the sigmoid. Pool on the cosines, before any threshold. A single
-checkpoint reproduces no number in the paper.
-
 ⚠️ **Do not transfer the thresholds.** They are calibrated for this ensemble on SYN-CAL300.
 Cosine scales differ between models, and the sibling margin has been observed to flip sign;
 recalibrate on your own labelled pairs.
-
-⚠️ **The extractor's per-fold models are not published, and should not be used.** Fold *k*'s model
-is trained on every other fold so that it never scores a document it has seen. Out of that
-context they invite exactly the mistake the folds exist to prevent.
-
-The qualifier's weights are published rather than only its recipe because several of its training
-settings were read from environment variables that no run manifest captured, so the recipe alone
-does not reconstruct it.
 
 ## Data
 
@@ -122,14 +109,6 @@ six seeds:
 Each filter is followed by its own size-matched random drop. The comparison that means something
 is the vertical one, against the line directly below, never against the unfiltered corpus.
 
-⚠️ **Level 2 does not re-run inference.** It recomputes statistics from predictions already
-written. It verifies the analysis, not that those predictions came from the models; that is
-level 3.
-
-⚠️ **Level 3 is reproduction, not bit-identical replay.** Same recipe, same data, same seed gives
-a model within the inter-seed standard deviation, never the same weights. GPU kernels, mixed
-precision and dataloader ordering are not deterministic.
-
 ⚠️ **Read a contrast with `contrasts.py`, never off the table.** The `±` is an inter-seed standard
 deviation and hides the sampling of the 288 patients, a floor of ±1.6 to ±3.5 pp that no number of
 seeds reduces. A gain consistent on all six seeds can still fail to clear it: the native `+1.9`
@@ -154,9 +133,7 @@ provenance/
 archive/                                full training histories (gitignored)
 ```
 
-**Scope: only the runs behind a number in the paper.** The study explored 149 encoder arms; 135
-answer questions the paper does not report, and shipping them would invite reconstructing results
-we chose not to claim. Here: the 14 arms of the table at 6 seeds, plus the 6 qualifier
+**Scope: only the runs behind a number in the paper.** The 14 arms of the table at 6 seeds, plus the 6 qualifier
 checkpoints.
 
 | Row of the table | native corpus | 30% corrupted |
@@ -180,18 +157,6 @@ is the complete recipe for one run.
 precision/recall/F1. ⚠️ These are each run's own validation figures on the generated corpus; the
 paper's numbers come from re-scoring the saved predictions on the 288 PARHAF cases, which is what
 level 2 does. The per-step histories, 860 MB raw, are archived outside git.
-
-## Known gap in the provenance
-
-Training runs wrote a manifest with the commit, the resolved config and the data fingerprints. Of
-the 74 that survive, **not one captured the environment variables**, and none documents a run
-reported in the paper, which is why no manifest is shipped.
-
-For the encoder this is harmless: its configuration lives entirely in the config file, so
-`provenance/configs/` is complete. For the **qualifier** it is not: several training settings come
-from the environment and are recorded nowhere, so its runs cannot be reconstructed exactly from
-this repository. The same gap explains why it contributes no row to `runs_summary.csv`. That is
-why its weights are published rather than only its recipe.
 
 ## License
 
